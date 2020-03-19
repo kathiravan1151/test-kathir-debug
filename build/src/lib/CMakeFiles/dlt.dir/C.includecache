@@ -94,7 +94,7 @@ sys/types.h
 
 ../src/shared/dlt_user_shared_cfg.h
 
-/home/dot/dlt-daemon/src/lib/dlt_client.c
+/mnt/dlt-daemon/src/lib/dlt_client.c
 stdio.h
 -
 winsock2.h
@@ -126,23 +126,23 @@ errno.h
 limits.h
 -
 dlt_types.h
-/home/dot/dlt-daemon/src/lib/dlt_types.h
+/mnt/dlt-daemon/src/lib/dlt_types.h
 dlt_client.h
-/home/dot/dlt-daemon/src/lib/dlt_client.h
+/mnt/dlt-daemon/src/lib/dlt_client.h
 dlt_client_cfg.h
-/home/dot/dlt-daemon/src/lib/dlt_client_cfg.h
+/mnt/dlt-daemon/src/lib/dlt_client_cfg.h
 
-/home/dot/dlt-daemon/src/lib/dlt_client_cfg.h
+/mnt/dlt-daemon/src/lib/dlt_client_cfg.h
 
-/home/dot/dlt-daemon/src/lib/dlt_env_ll.c
+/mnt/dlt-daemon/src/lib/dlt_env_ll.c
 dlt_user.h
-/home/dot/dlt-daemon/src/lib/dlt_user.h
+/mnt/dlt-daemon/src/lib/dlt_user.h
 string.h
 -
 stdlib.h
 -
 
-/home/dot/dlt-daemon/src/lib/dlt_filetransfer.c
+/mnt/dlt-daemon/src/lib/dlt_filetransfer.c
 errno.h
 -
 stdio.h
@@ -150,11 +150,11 @@ stdio.h
 string.h
 -
 dlt_filetransfer.h
-/home/dot/dlt-daemon/src/lib/dlt_filetransfer.h
+/mnt/dlt-daemon/src/lib/dlt_filetransfer.h
 dlt_common.h
-/home/dot/dlt-daemon/src/lib/dlt_common.h
+/mnt/dlt-daemon/src/lib/dlt_common.h
 
-/home/dot/dlt-daemon/src/lib/dlt_user.c
+/mnt/dlt-daemon/src/lib/dlt_user.c
 stdlib.h
 -
 string.h
@@ -196,19 +196,19 @@ sys/un.h
 sys/socket.h
 -
 dlt_user.h
-/home/dot/dlt-daemon/src/lib/dlt_user.h
+/mnt/dlt-daemon/src/lib/dlt_user.h
 dlt_common.h
-/home/dot/dlt-daemon/src/lib/dlt_common.h
+/mnt/dlt-daemon/src/lib/dlt_common.h
 dlt_user_shared.h
-/home/dot/dlt-daemon/src/lib/dlt_user_shared.h
+/mnt/dlt-daemon/src/lib/dlt_user_shared.h
 dlt_user_shared_cfg.h
-/home/dot/dlt-daemon/src/lib/dlt_user_shared_cfg.h
+/mnt/dlt-daemon/src/lib/dlt_user_shared_cfg.h
 dlt_user_cfg.h
-/home/dot/dlt-daemon/src/lib/dlt_user_cfg.h
+/mnt/dlt-daemon/src/lib/dlt_user_cfg.h
 
-/home/dot/dlt-daemon/src/lib/dlt_user_cfg.h
+/mnt/dlt-daemon/src/lib/dlt_user_cfg.h
 
-/home/dot/dlt-daemon/src/shared/dlt_common.c
+/mnt/dlt-daemon/src/shared/dlt_common.c
 stdio.h
 -
 stdlib.h
@@ -228,13 +228,13 @@ errno.h
 sys/stat.h
 -
 dlt_user_shared.h
-/home/dot/dlt-daemon/src/shared/dlt_user_shared.h
+/mnt/dlt-daemon/src/shared/dlt_user_shared.h
 dlt_common.h
-/home/dot/dlt-daemon/src/shared/dlt_common.h
+/mnt/dlt-daemon/src/shared/dlt_common.h
 dlt_common_cfg.h
-/home/dot/dlt-daemon/src/shared/dlt_common_cfg.h
+/mnt/dlt-daemon/src/shared/dlt_common_cfg.h
 dlt_version.h
-/home/dot/dlt-daemon/src/shared/dlt_version.h
+/mnt/dlt-daemon/src/shared/dlt_version.h
 winsock2.h
 -
 sys/socket.h
@@ -254,13 +254,13 @@ windows.h
 winbase.h
 -
 
-/home/dot/dlt-daemon/src/shared/dlt_common_cfg.h
+/mnt/dlt-daemon/src/shared/dlt_common_cfg.h
 
-/home/dot/dlt-daemon/src/shared/dlt_protocol.c
+/mnt/dlt-daemon/src/shared/dlt_protocol.c
 dlt_protocol.h
-/home/dot/dlt-daemon/src/shared/dlt_protocol.h
+/mnt/dlt-daemon/src/shared/dlt_protocol.h
 
-/home/dot/dlt-daemon/src/shared/dlt_user_shared.c
+/mnt/dlt-daemon/src/shared/dlt_user_shared.c
 sys/stat.h
 -
 fcntl.h
@@ -270,19 +270,19 @@ errno.h
 sys/uio.h
 -
 dlt_user_shared.h
-/home/dot/dlt-daemon/src/shared/dlt_user_shared.h
+/mnt/dlt-daemon/src/shared/dlt_user_shared.h
 dlt_user_shared_cfg.h
-/home/dot/dlt-daemon/src/shared/dlt_user_shared_cfg.h
+/mnt/dlt-daemon/src/shared/dlt_user_shared_cfg.h
 
-/home/dot/dlt-daemon/src/shared/dlt_user_shared.h
+/mnt/dlt-daemon/src/shared/dlt_user_shared.h
 dlt_types.h
-/home/dot/dlt-daemon/src/shared/dlt_types.h
+/mnt/dlt-daemon/src/shared/dlt_types.h
 dlt_user.h
-/home/dot/dlt-daemon/src/shared/dlt_user.h
+/mnt/dlt-daemon/src/shared/dlt_user.h
 sys/types.h
 -
 
-/home/dot/dlt-daemon/src/shared/dlt_user_shared_cfg.h
+/mnt/dlt-daemon/src/shared/dlt_user_shared_cfg.h
 
 include/dlt/dlt_version.h
 

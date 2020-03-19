@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/dot/dlt-daemon/src/tests/dlt-test-user.c" "/home/dot/dlt-daemon/build/src/tests/CMakeFiles/dlt-test-user.dir/dlt-test-user.c.o"
+  "/mnt/dlt-daemon/src/tests/dlt-test-user.c" "/mnt/dlt-daemon/build/src/tests/CMakeFiles/dlt-test-user.dir/dlt-test-user.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -33,7 +33,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/dot/dlt-daemon/build/src/lib/CMakeFiles/dlt.dir/DependInfo.cmake"
+  "/mnt/dlt-daemon/build/src/lib/CMakeFiles/dlt.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

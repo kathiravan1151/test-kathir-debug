@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dot/dlt-daemon
+CMAKE_SOURCE_DIR = /mnt/dlt-daemon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dot/dlt-daemon/build
+CMAKE_BINARY_DIR = /mnt/dlt-daemon/build
 
 # Include any dependencies generated for this target.
 include src/console/CMakeFiles/dlt-control.dir/depend.make
@@ -59,16 +59,16 @@ include src/console/CMakeFiles/dlt-control.dir/flags.make
 
 src/console/CMakeFiles/dlt-control.dir/dlt-control.c.o: src/console/CMakeFiles/dlt-control.dir/flags.make
 src/console/CMakeFiles/dlt-control.dir/dlt-control.c.o: ../src/console/dlt-control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/console/CMakeFiles/dlt-control.dir/dlt-control.c.o"
-	cd /home/dot/dlt-daemon/build/src/console && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-control.dir/dlt-control.c.o   -c /home/dot/dlt-daemon/src/console/dlt-control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/console/CMakeFiles/dlt-control.dir/dlt-control.c.o"
+	cd /mnt/dlt-daemon/build/src/console && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-control.dir/dlt-control.c.o   -c /mnt/dlt-daemon/src/console/dlt-control.c
 
 src/console/CMakeFiles/dlt-control.dir/dlt-control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-control.dir/dlt-control.c.i"
-	cd /home/dot/dlt-daemon/build/src/console && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/console/dlt-control.c > CMakeFiles/dlt-control.dir/dlt-control.c.i
+	cd /mnt/dlt-daemon/build/src/console && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/console/dlt-control.c > CMakeFiles/dlt-control.dir/dlt-control.c.i
 
 src/console/CMakeFiles/dlt-control.dir/dlt-control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-control.dir/dlt-control.c.s"
-	cd /home/dot/dlt-daemon/build/src/console && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/console/dlt-control.c -o CMakeFiles/dlt-control.dir/dlt-control.c.s
+	cd /mnt/dlt-daemon/build/src/console && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/console/dlt-control.c -o CMakeFiles/dlt-control.dir/dlt-control.c.s
 
 src/console/CMakeFiles/dlt-control.dir/dlt-control.c.o.requires:
 
@@ -83,16 +83,16 @@ src/console/CMakeFiles/dlt-control.dir/dlt-control.c.o.provides.build: src/conso
 
 src/console/CMakeFiles/dlt-control.dir/dlt-control-common.c.o: src/console/CMakeFiles/dlt-control.dir/flags.make
 src/console/CMakeFiles/dlt-control.dir/dlt-control-common.c.o: ../src/console/dlt-control-common.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/console/CMakeFiles/dlt-control.dir/dlt-control-common.c.o"
-	cd /home/dot/dlt-daemon/build/src/console && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-control.dir/dlt-control-common.c.o   -c /home/dot/dlt-daemon/src/console/dlt-control-common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/console/CMakeFiles/dlt-control.dir/dlt-control-common.c.o"
+	cd /mnt/dlt-daemon/build/src/console && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-control.dir/dlt-control-common.c.o   -c /mnt/dlt-daemon/src/console/dlt-control-common.c
 
 src/console/CMakeFiles/dlt-control.dir/dlt-control-common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-control.dir/dlt-control-common.c.i"
-	cd /home/dot/dlt-daemon/build/src/console && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/console/dlt-control-common.c > CMakeFiles/dlt-control.dir/dlt-control-common.c.i
+	cd /mnt/dlt-daemon/build/src/console && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/console/dlt-control-common.c > CMakeFiles/dlt-control.dir/dlt-control-common.c.i
 
 src/console/CMakeFiles/dlt-control.dir/dlt-control-common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-control.dir/dlt-control-common.c.s"
-	cd /home/dot/dlt-daemon/build/src/console && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/console/dlt-control-common.c -o CMakeFiles/dlt-control.dir/dlt-control-common.c.s
+	cd /mnt/dlt-daemon/build/src/console && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/console/dlt-control-common.c -o CMakeFiles/dlt-control.dir/dlt-control-common.c.s
 
 src/console/CMakeFiles/dlt-control.dir/dlt-control-common.c.o.requires:
 
@@ -118,8 +118,8 @@ src/console/dlt-control: src/console/CMakeFiles/dlt-control.dir/dlt-control-comm
 src/console/dlt-control: src/console/CMakeFiles/dlt-control.dir/build.make
 src/console/dlt-control: src/lib/libdlt.so.2.18.4
 src/console/dlt-control: src/console/CMakeFiles/dlt-control.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable dlt-control"
-	cd /home/dot/dlt-daemon/build/src/console && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dlt-control.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable dlt-control"
+	cd /mnt/dlt-daemon/build/src/console && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dlt-control.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/console/CMakeFiles/dlt-control.dir/build: src/console/dlt-control
@@ -132,10 +132,10 @@ src/console/CMakeFiles/dlt-control.dir/requires: src/console/CMakeFiles/dlt-cont
 .PHONY : src/console/CMakeFiles/dlt-control.dir/requires
 
 src/console/CMakeFiles/dlt-control.dir/clean:
-	cd /home/dot/dlt-daemon/build/src/console && $(CMAKE_COMMAND) -P CMakeFiles/dlt-control.dir/cmake_clean.cmake
+	cd /mnt/dlt-daemon/build/src/console && $(CMAKE_COMMAND) -P CMakeFiles/dlt-control.dir/cmake_clean.cmake
 .PHONY : src/console/CMakeFiles/dlt-control.dir/clean
 
 src/console/CMakeFiles/dlt-control.dir/depend:
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dot/dlt-daemon /home/dot/dlt-daemon/src/console /home/dot/dlt-daemon/build /home/dot/dlt-daemon/build/src/console /home/dot/dlt-daemon/build/src/console/CMakeFiles/dlt-control.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/dlt-daemon /mnt/dlt-daemon/src/console /mnt/dlt-daemon/build /mnt/dlt-daemon/build/src/console /mnt/dlt-daemon/build/src/console/CMakeFiles/dlt-control.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/console/CMakeFiles/dlt-control.dir/depend
 

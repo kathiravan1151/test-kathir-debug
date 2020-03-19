@@ -1,4 +1,4 @@
-# Install script for directory: /home/dot/dlt-daemon/src/daemon
+# Install script for directory: /mnt/dlt-daemon/src/daemon
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-daemon"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ GROUP_EXECUTE GROUP_READ WORLD_EXECUTE WORLD_READ FILES "/home/dot/dlt-daemon/build/src/daemon/dlt-daemon")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ GROUP_EXECUTE GROUP_READ WORLD_EXECUTE WORLD_READ FILES "/mnt/dlt-daemon/build/src/daemon/dlt-daemon")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-daemon" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-daemon")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -57,6 +57,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/etc" TYPE FILE FILES "/home/dot/dlt-daemon/src/daemon/dlt.conf")
+file(INSTALL DESTINATION "/usr/local/etc" TYPE FILE FILES "/mnt/dlt-daemon/src/daemon/dlt.conf")
 endif()
 

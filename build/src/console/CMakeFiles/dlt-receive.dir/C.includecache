@@ -40,7 +40,7 @@ varargs.h
 stdint.h
 -
 
-/home/dot/dlt-daemon/src/console/dlt-receive.c
+/mnt/dlt-daemon/src/console/dlt-receive.c
 ctype.h
 -
 stdlib.h
@@ -66,5 +66,5 @@ limits.h
 inttypes.h
 -
 dlt_client.h
-/home/dot/dlt-daemon/src/console/dlt_client.h
+/mnt/dlt-daemon/src/console/dlt_client.h
 

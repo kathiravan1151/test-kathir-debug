@@ -1,4 +1,4 @@
-# Install script for directory: /home/dot/dlt-daemon/src
+# Install script for directory: /mnt/dlt-daemon/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dot/dlt-daemon/build/src/lib/cmake_install.cmake")
-  include("/home/dot/dlt-daemon/build/src/daemon/cmake_install.cmake")
-  include("/home/dot/dlt-daemon/build/src/gateway/cmake_install.cmake")
-  include("/home/dot/dlt-daemon/build/src/console/cmake_install.cmake")
-  include("/home/dot/dlt-daemon/build/src/examples/cmake_install.cmake")
-  include("/home/dot/dlt-daemon/build/src/tests/cmake_install.cmake")
+  include("/mnt/dlt-daemon/build/src/lib/cmake_install.cmake")
+  include("/mnt/dlt-daemon/build/src/daemon/cmake_install.cmake")
+  include("/mnt/dlt-daemon/build/src/gateway/cmake_install.cmake")
+  include("/mnt/dlt-daemon/build/src/console/cmake_install.cmake")
+  include("/mnt/dlt-daemon/build/src/examples/cmake_install.cmake")
+  include("/mnt/dlt-daemon/build/src/tests/cmake_install.cmake")
 
 endif()
 

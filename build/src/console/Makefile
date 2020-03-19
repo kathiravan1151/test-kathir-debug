@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dot/dlt-daemon
+CMAKE_SOURCE_DIR = /mnt/dlt-daemon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dot/dlt-daemon/build
+CMAKE_BINARY_DIR = /mnt/dlt-daemon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles /home/dot/dlt-daemon/build/src/console/CMakeFiles/progress.marks
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles /mnt/dlt-daemon/build/src/console/CMakeFiles/progress.marks
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/clean
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/preinstall
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/preinstall
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/console/CMakeFiles/dlt-convert.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-convert.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-convert.dir/rule
 .PHONY : src/console/CMakeFiles/dlt-convert.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ dlt-convert: src/console/CMakeFiles/dlt-convert.dir/rule
 
 # fast build rule for target.
 dlt-convert/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-convert.dir/build.make src/console/CMakeFiles/dlt-convert.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-convert.dir/build.make src/console/CMakeFiles/dlt-convert.dir/build
 .PHONY : dlt-convert/fast
 
 # Convenience name for target.
 src/console/CMakeFiles/dlt-receive.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-receive.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-receive.dir/rule
 .PHONY : src/console/CMakeFiles/dlt-receive.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ dlt-receive: src/console/CMakeFiles/dlt-receive.dir/rule
 
 # fast build rule for target.
 dlt-receive/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-receive.dir/build.make src/console/CMakeFiles/dlt-receive.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-receive.dir/build.make src/console/CMakeFiles/dlt-receive.dir/build
 .PHONY : dlt-receive/fast
 
 # Convenience name for target.
 src/console/CMakeFiles/dlt-control.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-control.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-control.dir/rule
 .PHONY : src/console/CMakeFiles/dlt-control.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ dlt-control: src/console/CMakeFiles/dlt-control.dir/rule
 
 # fast build rule for target.
 dlt-control/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/build
 .PHONY : dlt-control/fast
 
 # Convenience name for target.
 src/console/CMakeFiles/dlt-passive-node-ctrl.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-passive-node-ctrl.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-passive-node-ctrl.dir/rule
 .PHONY : src/console/CMakeFiles/dlt-passive-node-ctrl.dir/rule
 
 # Convenience name for target.
@@ -211,12 +211,12 @@ dlt-passive-node-ctrl: src/console/CMakeFiles/dlt-passive-node-ctrl.dir/rule
 
 # fast build rule for target.
 dlt-passive-node-ctrl/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build
 .PHONY : dlt-passive-node-ctrl/fast
 
 # Convenience name for target.
 src/console/CMakeFiles/dlt-sortbytimestamp.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-sortbytimestamp.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-sortbytimestamp.dir/rule
 .PHONY : src/console/CMakeFiles/dlt-sortbytimestamp.dir/rule
 
 # Convenience name for target.
@@ -226,7 +226,7 @@ dlt-sortbytimestamp: src/console/CMakeFiles/dlt-sortbytimestamp.dir/rule
 
 # fast build rule for target.
 dlt-sortbytimestamp/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-sortbytimestamp.dir/build.make src/console/CMakeFiles/dlt-sortbytimestamp.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-sortbytimestamp.dir/build.make src/console/CMakeFiles/dlt-sortbytimestamp.dir/build
 .PHONY : dlt-sortbytimestamp/fast
 
 dlt-control-common.o: dlt-control-common.c.o
@@ -235,8 +235,8 @@ dlt-control-common.o: dlt-control-common.c.o
 
 # target to build an object file
 dlt-control-common.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/dlt-control-common.c.o
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/dlt-control-common.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/dlt-control-common.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/dlt-control-common.c.o
 .PHONY : dlt-control-common.c.o
 
 dlt-control-common.i: dlt-control-common.c.i
@@ -245,8 +245,8 @@ dlt-control-common.i: dlt-control-common.c.i
 
 # target to preprocess a source file
 dlt-control-common.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/dlt-control-common.c.i
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/dlt-control-common.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/dlt-control-common.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/dlt-control-common.c.i
 .PHONY : dlt-control-common.c.i
 
 dlt-control-common.s: dlt-control-common.c.s
@@ -255,8 +255,8 @@ dlt-control-common.s: dlt-control-common.c.s
 
 # target to generate assembly for a file
 dlt-control-common.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/dlt-control-common.c.s
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/dlt-control-common.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/dlt-control-common.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/dlt-control-common.c.s
 .PHONY : dlt-control-common.c.s
 
 dlt-control.o: dlt-control.c.o
@@ -265,7 +265,7 @@ dlt-control.o: dlt-control.c.o
 
 # target to build an object file
 dlt-control.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/dlt-control.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/dlt-control.c.o
 .PHONY : dlt-control.c.o
 
 dlt-control.i: dlt-control.c.i
@@ -274,7 +274,7 @@ dlt-control.i: dlt-control.c.i
 
 # target to preprocess a source file
 dlt-control.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/dlt-control.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/dlt-control.c.i
 .PHONY : dlt-control.c.i
 
 dlt-control.s: dlt-control.c.s
@@ -283,7 +283,7 @@ dlt-control.s: dlt-control.c.s
 
 # target to generate assembly for a file
 dlt-control.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/dlt-control.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/dlt-control.c.s
 .PHONY : dlt-control.c.s
 
 dlt-convert.o: dlt-convert.c.o
@@ -292,7 +292,7 @@ dlt-convert.o: dlt-convert.c.o
 
 # target to build an object file
 dlt-convert.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-convert.dir/build.make src/console/CMakeFiles/dlt-convert.dir/dlt-convert.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-convert.dir/build.make src/console/CMakeFiles/dlt-convert.dir/dlt-convert.c.o
 .PHONY : dlt-convert.c.o
 
 dlt-convert.i: dlt-convert.c.i
@@ -301,7 +301,7 @@ dlt-convert.i: dlt-convert.c.i
 
 # target to preprocess a source file
 dlt-convert.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-convert.dir/build.make src/console/CMakeFiles/dlt-convert.dir/dlt-convert.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-convert.dir/build.make src/console/CMakeFiles/dlt-convert.dir/dlt-convert.c.i
 .PHONY : dlt-convert.c.i
 
 dlt-convert.s: dlt-convert.c.s
@@ -310,7 +310,7 @@ dlt-convert.s: dlt-convert.c.s
 
 # target to generate assembly for a file
 dlt-convert.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-convert.dir/build.make src/console/CMakeFiles/dlt-convert.dir/dlt-convert.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-convert.dir/build.make src/console/CMakeFiles/dlt-convert.dir/dlt-convert.c.s
 .PHONY : dlt-convert.c.s
 
 dlt-passive-node-ctrl.o: dlt-passive-node-ctrl.c.o
@@ -319,7 +319,7 @@ dlt-passive-node-ctrl.o: dlt-passive-node-ctrl.c.o
 
 # target to build an object file
 dlt-passive-node-ctrl.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/dlt-passive-node-ctrl.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/dlt-passive-node-ctrl.c.o
 .PHONY : dlt-passive-node-ctrl.c.o
 
 dlt-passive-node-ctrl.i: dlt-passive-node-ctrl.c.i
@@ -328,7 +328,7 @@ dlt-passive-node-ctrl.i: dlt-passive-node-ctrl.c.i
 
 # target to preprocess a source file
 dlt-passive-node-ctrl.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/dlt-passive-node-ctrl.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/dlt-passive-node-ctrl.c.i
 .PHONY : dlt-passive-node-ctrl.c.i
 
 dlt-passive-node-ctrl.s: dlt-passive-node-ctrl.c.s
@@ -337,7 +337,7 @@ dlt-passive-node-ctrl.s: dlt-passive-node-ctrl.c.s
 
 # target to generate assembly for a file
 dlt-passive-node-ctrl.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/dlt-passive-node-ctrl.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/dlt-passive-node-ctrl.c.s
 .PHONY : dlt-passive-node-ctrl.c.s
 
 dlt-receive.o: dlt-receive.c.o
@@ -346,7 +346,7 @@ dlt-receive.o: dlt-receive.c.o
 
 # target to build an object file
 dlt-receive.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-receive.dir/build.make src/console/CMakeFiles/dlt-receive.dir/dlt-receive.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-receive.dir/build.make src/console/CMakeFiles/dlt-receive.dir/dlt-receive.c.o
 .PHONY : dlt-receive.c.o
 
 dlt-receive.i: dlt-receive.c.i
@@ -355,7 +355,7 @@ dlt-receive.i: dlt-receive.c.i
 
 # target to preprocess a source file
 dlt-receive.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-receive.dir/build.make src/console/CMakeFiles/dlt-receive.dir/dlt-receive.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-receive.dir/build.make src/console/CMakeFiles/dlt-receive.dir/dlt-receive.c.i
 .PHONY : dlt-receive.c.i
 
 dlt-receive.s: dlt-receive.c.s
@@ -364,7 +364,7 @@ dlt-receive.s: dlt-receive.c.s
 
 # target to generate assembly for a file
 dlt-receive.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-receive.dir/build.make src/console/CMakeFiles/dlt-receive.dir/dlt-receive.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-receive.dir/build.make src/console/CMakeFiles/dlt-receive.dir/dlt-receive.c.s
 .PHONY : dlt-receive.c.s
 
 dlt-sortbytimestamp.o: dlt-sortbytimestamp.c.o
@@ -373,7 +373,7 @@ dlt-sortbytimestamp.o: dlt-sortbytimestamp.c.o
 
 # target to build an object file
 dlt-sortbytimestamp.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-sortbytimestamp.dir/build.make src/console/CMakeFiles/dlt-sortbytimestamp.dir/dlt-sortbytimestamp.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-sortbytimestamp.dir/build.make src/console/CMakeFiles/dlt-sortbytimestamp.dir/dlt-sortbytimestamp.c.o
 .PHONY : dlt-sortbytimestamp.c.o
 
 dlt-sortbytimestamp.i: dlt-sortbytimestamp.c.i
@@ -382,7 +382,7 @@ dlt-sortbytimestamp.i: dlt-sortbytimestamp.c.i
 
 # target to preprocess a source file
 dlt-sortbytimestamp.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-sortbytimestamp.dir/build.make src/console/CMakeFiles/dlt-sortbytimestamp.dir/dlt-sortbytimestamp.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-sortbytimestamp.dir/build.make src/console/CMakeFiles/dlt-sortbytimestamp.dir/dlt-sortbytimestamp.c.i
 .PHONY : dlt-sortbytimestamp.c.i
 
 dlt-sortbytimestamp.s: dlt-sortbytimestamp.c.s
@@ -391,7 +391,7 @@ dlt-sortbytimestamp.s: dlt-sortbytimestamp.c.s
 
 # target to generate assembly for a file
 dlt-sortbytimestamp.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-sortbytimestamp.dir/build.make src/console/CMakeFiles/dlt-sortbytimestamp.dir/dlt-sortbytimestamp.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/CMakeFiles/dlt-sortbytimestamp.dir/build.make src/console/CMakeFiles/dlt-sortbytimestamp.dir/dlt-sortbytimestamp.c.s
 .PHONY : dlt-sortbytimestamp.c.s
 
 # Help Target
@@ -440,6 +440,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

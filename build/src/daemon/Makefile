@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dot/dlt-daemon
+CMAKE_SOURCE_DIR = /mnt/dlt-daemon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dot/dlt-daemon/build
+CMAKE_BINARY_DIR = /mnt/dlt-daemon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles /home/dot/dlt-daemon/build/src/daemon/CMakeFiles/progress.marks
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/daemon/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles /mnt/dlt-daemon/build/src/daemon/CMakeFiles/progress.marks
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/daemon/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/daemon/clean
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/daemon/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/daemon/preinstall
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/daemon/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/daemon/preinstall
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/daemon/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/daemon/CMakeFiles/dlt-daemon.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/daemon/CMakeFiles/dlt-daemon.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/daemon/CMakeFiles/dlt-daemon.dir/rule
 .PHONY : src/daemon/CMakeFiles/dlt-daemon.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ dlt-daemon: src/daemon/CMakeFiles/dlt-daemon.dir/rule
 
 # fast build rule for target.
 dlt-daemon/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/build
 .PHONY : dlt-daemon/fast
 
 __/gateway/dlt_gateway.o: __/gateway/dlt_gateway.c.o
@@ -175,7 +175,7 @@ __/gateway/dlt_gateway.o: __/gateway/dlt_gateway.c.o
 
 # target to build an object file
 __/gateway/dlt_gateway.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.o
 .PHONY : __/gateway/dlt_gateway.c.o
 
 __/gateway/dlt_gateway.i: __/gateway/dlt_gateway.c.i
@@ -184,7 +184,7 @@ __/gateway/dlt_gateway.i: __/gateway/dlt_gateway.c.i
 
 # target to preprocess a source file
 __/gateway/dlt_gateway.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.i
 .PHONY : __/gateway/dlt_gateway.c.i
 
 __/gateway/dlt_gateway.s: __/gateway/dlt_gateway.c.s
@@ -193,7 +193,7 @@ __/gateway/dlt_gateway.s: __/gateway/dlt_gateway.c.s
 
 # target to generate assembly for a file
 __/gateway/dlt_gateway.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.s
 .PHONY : __/gateway/dlt_gateway.c.s
 
 __/lib/dlt_client.o: __/lib/dlt_client.c.o
@@ -202,7 +202,7 @@ __/lib/dlt_client.o: __/lib/dlt_client.c.o
 
 # target to build an object file
 __/lib/dlt_client.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.o
 .PHONY : __/lib/dlt_client.c.o
 
 __/lib/dlt_client.i: __/lib/dlt_client.c.i
@@ -211,7 +211,7 @@ __/lib/dlt_client.i: __/lib/dlt_client.c.i
 
 # target to preprocess a source file
 __/lib/dlt_client.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.i
 .PHONY : __/lib/dlt_client.c.i
 
 __/lib/dlt_client.s: __/lib/dlt_client.c.s
@@ -220,7 +220,7 @@ __/lib/dlt_client.s: __/lib/dlt_client.c.s
 
 # target to generate assembly for a file
 __/lib/dlt_client.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.s
 .PHONY : __/lib/dlt_client.c.s
 
 __/offlinelogstorage/dlt_offline_logstorage.o: __/offlinelogstorage/dlt_offline_logstorage.c.o
@@ -229,7 +229,7 @@ __/offlinelogstorage/dlt_offline_logstorage.o: __/offlinelogstorage/dlt_offline_
 
 # target to build an object file
 __/offlinelogstorage/dlt_offline_logstorage.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.o
 .PHONY : __/offlinelogstorage/dlt_offline_logstorage.c.o
 
 __/offlinelogstorage/dlt_offline_logstorage.i: __/offlinelogstorage/dlt_offline_logstorage.c.i
@@ -238,7 +238,7 @@ __/offlinelogstorage/dlt_offline_logstorage.i: __/offlinelogstorage/dlt_offline_
 
 # target to preprocess a source file
 __/offlinelogstorage/dlt_offline_logstorage.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.i
 .PHONY : __/offlinelogstorage/dlt_offline_logstorage.c.i
 
 __/offlinelogstorage/dlt_offline_logstorage.s: __/offlinelogstorage/dlt_offline_logstorage.c.s
@@ -247,7 +247,7 @@ __/offlinelogstorage/dlt_offline_logstorage.s: __/offlinelogstorage/dlt_offline_
 
 # target to generate assembly for a file
 __/offlinelogstorage/dlt_offline_logstorage.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.s
 .PHONY : __/offlinelogstorage/dlt_offline_logstorage.c.s
 
 __/offlinelogstorage/dlt_offline_logstorage_behavior.o: __/offlinelogstorage/dlt_offline_logstorage_behavior.c.o
@@ -256,7 +256,7 @@ __/offlinelogstorage/dlt_offline_logstorage_behavior.o: __/offlinelogstorage/dlt
 
 # target to build an object file
 __/offlinelogstorage/dlt_offline_logstorage_behavior.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.o
 .PHONY : __/offlinelogstorage/dlt_offline_logstorage_behavior.c.o
 
 __/offlinelogstorage/dlt_offline_logstorage_behavior.i: __/offlinelogstorage/dlt_offline_logstorage_behavior.c.i
@@ -265,7 +265,7 @@ __/offlinelogstorage/dlt_offline_logstorage_behavior.i: __/offlinelogstorage/dlt
 
 # target to preprocess a source file
 __/offlinelogstorage/dlt_offline_logstorage_behavior.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.i
 .PHONY : __/offlinelogstorage/dlt_offline_logstorage_behavior.c.i
 
 __/offlinelogstorage/dlt_offline_logstorage_behavior.s: __/offlinelogstorage/dlt_offline_logstorage_behavior.c.s
@@ -274,7 +274,7 @@ __/offlinelogstorage/dlt_offline_logstorage_behavior.s: __/offlinelogstorage/dlt
 
 # target to generate assembly for a file
 __/offlinelogstorage/dlt_offline_logstorage_behavior.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.s
 .PHONY : __/offlinelogstorage/dlt_offline_logstorage_behavior.c.s
 
 __/shared/dlt_common.o: __/shared/dlt_common.c.o
@@ -283,7 +283,7 @@ __/shared/dlt_common.o: __/shared/dlt_common.c.o
 
 # target to build an object file
 __/shared/dlt_common.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.o
 .PHONY : __/shared/dlt_common.c.o
 
 __/shared/dlt_common.i: __/shared/dlt_common.c.i
@@ -292,7 +292,7 @@ __/shared/dlt_common.i: __/shared/dlt_common.c.i
 
 # target to preprocess a source file
 __/shared/dlt_common.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.i
 .PHONY : __/shared/dlt_common.c.i
 
 __/shared/dlt_common.s: __/shared/dlt_common.c.s
@@ -301,7 +301,7 @@ __/shared/dlt_common.s: __/shared/dlt_common.c.s
 
 # target to generate assembly for a file
 __/shared/dlt_common.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.s
 .PHONY : __/shared/dlt_common.c.s
 
 __/shared/dlt_config_file_parser.o: __/shared/dlt_config_file_parser.c.o
@@ -310,7 +310,7 @@ __/shared/dlt_config_file_parser.o: __/shared/dlt_config_file_parser.c.o
 
 # target to build an object file
 __/shared/dlt_config_file_parser.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.o
 .PHONY : __/shared/dlt_config_file_parser.c.o
 
 __/shared/dlt_config_file_parser.i: __/shared/dlt_config_file_parser.c.i
@@ -319,7 +319,7 @@ __/shared/dlt_config_file_parser.i: __/shared/dlt_config_file_parser.c.i
 
 # target to preprocess a source file
 __/shared/dlt_config_file_parser.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.i
 .PHONY : __/shared/dlt_config_file_parser.c.i
 
 __/shared/dlt_config_file_parser.s: __/shared/dlt_config_file_parser.c.s
@@ -328,7 +328,7 @@ __/shared/dlt_config_file_parser.s: __/shared/dlt_config_file_parser.c.s
 
 # target to generate assembly for a file
 __/shared/dlt_config_file_parser.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.s
 .PHONY : __/shared/dlt_config_file_parser.c.s
 
 __/shared/dlt_offline_trace.o: __/shared/dlt_offline_trace.c.o
@@ -337,7 +337,7 @@ __/shared/dlt_offline_trace.o: __/shared/dlt_offline_trace.c.o
 
 # target to build an object file
 __/shared/dlt_offline_trace.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.o
 .PHONY : __/shared/dlt_offline_trace.c.o
 
 __/shared/dlt_offline_trace.i: __/shared/dlt_offline_trace.c.i
@@ -346,7 +346,7 @@ __/shared/dlt_offline_trace.i: __/shared/dlt_offline_trace.c.i
 
 # target to preprocess a source file
 __/shared/dlt_offline_trace.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.i
 .PHONY : __/shared/dlt_offline_trace.c.i
 
 __/shared/dlt_offline_trace.s: __/shared/dlt_offline_trace.c.s
@@ -355,7 +355,7 @@ __/shared/dlt_offline_trace.s: __/shared/dlt_offline_trace.c.s
 
 # target to generate assembly for a file
 __/shared/dlt_offline_trace.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.s
 .PHONY : __/shared/dlt_offline_trace.c.s
 
 __/shared/dlt_protocol.o: __/shared/dlt_protocol.c.o
@@ -364,7 +364,7 @@ __/shared/dlt_protocol.o: __/shared/dlt_protocol.c.o
 
 # target to build an object file
 __/shared/dlt_protocol.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.o
 .PHONY : __/shared/dlt_protocol.c.o
 
 __/shared/dlt_protocol.i: __/shared/dlt_protocol.c.i
@@ -373,7 +373,7 @@ __/shared/dlt_protocol.i: __/shared/dlt_protocol.c.i
 
 # target to preprocess a source file
 __/shared/dlt_protocol.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.i
 .PHONY : __/shared/dlt_protocol.c.i
 
 __/shared/dlt_protocol.s: __/shared/dlt_protocol.c.s
@@ -382,7 +382,7 @@ __/shared/dlt_protocol.s: __/shared/dlt_protocol.c.s
 
 # target to generate assembly for a file
 __/shared/dlt_protocol.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.s
 .PHONY : __/shared/dlt_protocol.c.s
 
 __/shared/dlt_user_shared.o: __/shared/dlt_user_shared.c.o
@@ -391,7 +391,7 @@ __/shared/dlt_user_shared.o: __/shared/dlt_user_shared.c.o
 
 # target to build an object file
 __/shared/dlt_user_shared.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.o
 .PHONY : __/shared/dlt_user_shared.c.o
 
 __/shared/dlt_user_shared.i: __/shared/dlt_user_shared.c.i
@@ -400,7 +400,7 @@ __/shared/dlt_user_shared.i: __/shared/dlt_user_shared.c.i
 
 # target to preprocess a source file
 __/shared/dlt_user_shared.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.i
 .PHONY : __/shared/dlt_user_shared.c.i
 
 __/shared/dlt_user_shared.s: __/shared/dlt_user_shared.c.s
@@ -409,7 +409,7 @@ __/shared/dlt_user_shared.s: __/shared/dlt_user_shared.c.s
 
 # target to generate assembly for a file
 __/shared/dlt_user_shared.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.s
 .PHONY : __/shared/dlt_user_shared.c.s
 
 dlt-daemon.o: dlt-daemon.c.o
@@ -418,7 +418,7 @@ dlt-daemon.o: dlt-daemon.c.o
 
 # target to build an object file
 dlt-daemon.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt-daemon.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt-daemon.c.o
 .PHONY : dlt-daemon.c.o
 
 dlt-daemon.i: dlt-daemon.c.i
@@ -427,7 +427,7 @@ dlt-daemon.i: dlt-daemon.c.i
 
 # target to preprocess a source file
 dlt-daemon.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt-daemon.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt-daemon.c.i
 .PHONY : dlt-daemon.c.i
 
 dlt-daemon.s: dlt-daemon.c.s
@@ -436,7 +436,7 @@ dlt-daemon.s: dlt-daemon.c.s
 
 # target to generate assembly for a file
 dlt-daemon.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt-daemon.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt-daemon.c.s
 .PHONY : dlt-daemon.c.s
 
 dlt_daemon_client.o: dlt_daemon_client.c.o
@@ -445,7 +445,7 @@ dlt_daemon_client.o: dlt_daemon_client.c.o
 
 # target to build an object file
 dlt_daemon_client.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.o
 .PHONY : dlt_daemon_client.c.o
 
 dlt_daemon_client.i: dlt_daemon_client.c.i
@@ -454,7 +454,7 @@ dlt_daemon_client.i: dlt_daemon_client.c.i
 
 # target to preprocess a source file
 dlt_daemon_client.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.i
 .PHONY : dlt_daemon_client.c.i
 
 dlt_daemon_client.s: dlt_daemon_client.c.s
@@ -463,7 +463,7 @@ dlt_daemon_client.s: dlt_daemon_client.c.s
 
 # target to generate assembly for a file
 dlt_daemon_client.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.s
 .PHONY : dlt_daemon_client.c.s
 
 dlt_daemon_common.o: dlt_daemon_common.c.o
@@ -472,7 +472,7 @@ dlt_daemon_common.o: dlt_daemon_common.c.o
 
 # target to build an object file
 dlt_daemon_common.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.o
 .PHONY : dlt_daemon_common.c.o
 
 dlt_daemon_common.i: dlt_daemon_common.c.i
@@ -481,7 +481,7 @@ dlt_daemon_common.i: dlt_daemon_common.c.i
 
 # target to preprocess a source file
 dlt_daemon_common.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.i
 .PHONY : dlt_daemon_common.c.i
 
 dlt_daemon_common.s: dlt_daemon_common.c.s
@@ -490,7 +490,7 @@ dlt_daemon_common.s: dlt_daemon_common.c.s
 
 # target to generate assembly for a file
 dlt_daemon_common.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.s
 .PHONY : dlt_daemon_common.c.s
 
 dlt_daemon_connection.o: dlt_daemon_connection.c.o
@@ -499,7 +499,7 @@ dlt_daemon_connection.o: dlt_daemon_connection.c.o
 
 # target to build an object file
 dlt_daemon_connection.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.o
 .PHONY : dlt_daemon_connection.c.o
 
 dlt_daemon_connection.i: dlt_daemon_connection.c.i
@@ -508,7 +508,7 @@ dlt_daemon_connection.i: dlt_daemon_connection.c.i
 
 # target to preprocess a source file
 dlt_daemon_connection.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.i
 .PHONY : dlt_daemon_connection.c.i
 
 dlt_daemon_connection.s: dlt_daemon_connection.c.s
@@ -517,7 +517,7 @@ dlt_daemon_connection.s: dlt_daemon_connection.c.s
 
 # target to generate assembly for a file
 dlt_daemon_connection.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.s
 .PHONY : dlt_daemon_connection.c.s
 
 dlt_daemon_event_handler.o: dlt_daemon_event_handler.c.o
@@ -526,7 +526,7 @@ dlt_daemon_event_handler.o: dlt_daemon_event_handler.c.o
 
 # target to build an object file
 dlt_daemon_event_handler.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.o
 .PHONY : dlt_daemon_event_handler.c.o
 
 dlt_daemon_event_handler.i: dlt_daemon_event_handler.c.i
@@ -535,7 +535,7 @@ dlt_daemon_event_handler.i: dlt_daemon_event_handler.c.i
 
 # target to preprocess a source file
 dlt_daemon_event_handler.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.i
 .PHONY : dlt_daemon_event_handler.c.i
 
 dlt_daemon_event_handler.s: dlt_daemon_event_handler.c.s
@@ -544,7 +544,7 @@ dlt_daemon_event_handler.s: dlt_daemon_event_handler.c.s
 
 # target to generate assembly for a file
 dlt_daemon_event_handler.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.s
 .PHONY : dlt_daemon_event_handler.c.s
 
 dlt_daemon_offline_logstorage.o: dlt_daemon_offline_logstorage.c.o
@@ -553,7 +553,7 @@ dlt_daemon_offline_logstorage.o: dlt_daemon_offline_logstorage.c.o
 
 # target to build an object file
 dlt_daemon_offline_logstorage.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.o
 .PHONY : dlt_daemon_offline_logstorage.c.o
 
 dlt_daemon_offline_logstorage.i: dlt_daemon_offline_logstorage.c.i
@@ -562,7 +562,7 @@ dlt_daemon_offline_logstorage.i: dlt_daemon_offline_logstorage.c.i
 
 # target to preprocess a source file
 dlt_daemon_offline_logstorage.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.i
 .PHONY : dlt_daemon_offline_logstorage.c.i
 
 dlt_daemon_offline_logstorage.s: dlt_daemon_offline_logstorage.c.s
@@ -571,7 +571,7 @@ dlt_daemon_offline_logstorage.s: dlt_daemon_offline_logstorage.c.s
 
 # target to generate assembly for a file
 dlt_daemon_offline_logstorage.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.s
 .PHONY : dlt_daemon_offline_logstorage.c.s
 
 dlt_daemon_serial.o: dlt_daemon_serial.c.o
@@ -580,7 +580,7 @@ dlt_daemon_serial.o: dlt_daemon_serial.c.o
 
 # target to build an object file
 dlt_daemon_serial.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.o
 .PHONY : dlt_daemon_serial.c.o
 
 dlt_daemon_serial.i: dlt_daemon_serial.c.i
@@ -589,7 +589,7 @@ dlt_daemon_serial.i: dlt_daemon_serial.c.i
 
 # target to preprocess a source file
 dlt_daemon_serial.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.i
 .PHONY : dlt_daemon_serial.c.i
 
 dlt_daemon_serial.s: dlt_daemon_serial.c.s
@@ -598,7 +598,7 @@ dlt_daemon_serial.s: dlt_daemon_serial.c.s
 
 # target to generate assembly for a file
 dlt_daemon_serial.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.s
 .PHONY : dlt_daemon_serial.c.s
 
 dlt_daemon_socket.o: dlt_daemon_socket.c.o
@@ -607,7 +607,7 @@ dlt_daemon_socket.o: dlt_daemon_socket.c.o
 
 # target to build an object file
 dlt_daemon_socket.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.o
 .PHONY : dlt_daemon_socket.c.o
 
 dlt_daemon_socket.i: dlt_daemon_socket.c.i
@@ -616,7 +616,7 @@ dlt_daemon_socket.i: dlt_daemon_socket.c.i
 
 # target to preprocess a source file
 dlt_daemon_socket.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.i
 .PHONY : dlt_daemon_socket.c.i
 
 dlt_daemon_socket.s: dlt_daemon_socket.c.s
@@ -625,7 +625,7 @@ dlt_daemon_socket.s: dlt_daemon_socket.c.s
 
 # target to generate assembly for a file
 dlt_daemon_socket.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.s
 .PHONY : dlt_daemon_socket.c.s
 
 dlt_daemon_unix_socket.o: dlt_daemon_unix_socket.c.o
@@ -634,7 +634,7 @@ dlt_daemon_unix_socket.o: dlt_daemon_unix_socket.c.o
 
 # target to build an object file
 dlt_daemon_unix_socket.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.o
 .PHONY : dlt_daemon_unix_socket.c.o
 
 dlt_daemon_unix_socket.i: dlt_daemon_unix_socket.c.i
@@ -643,7 +643,7 @@ dlt_daemon_unix_socket.i: dlt_daemon_unix_socket.c.i
 
 # target to preprocess a source file
 dlt_daemon_unix_socket.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.i
 .PHONY : dlt_daemon_unix_socket.c.i
 
 dlt_daemon_unix_socket.s: dlt_daemon_unix_socket.c.s
@@ -652,7 +652,7 @@ dlt_daemon_unix_socket.s: dlt_daemon_unix_socket.c.s
 
 # target to generate assembly for a file
 dlt_daemon_unix_socket.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.s
 .PHONY : dlt_daemon_unix_socket.c.s
 
 # Help Target
@@ -733,6 +733,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

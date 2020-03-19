@@ -78,7 +78,7 @@ dlt_version.h
 dlt_types.h
 ../include/dlt/dlt_types.h
 
-/home/dot/dlt-daemon/src/examples/dlt-example-filetransfer.c
+/mnt/dlt-daemon/src/examples/dlt-example-filetransfer.c
 stdlib.h
 -
 stdio.h

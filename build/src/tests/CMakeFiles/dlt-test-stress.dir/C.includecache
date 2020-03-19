@@ -66,7 +66,7 @@ dlt_version.h
 dlt_types.h
 ../include/dlt/dlt_types.h
 
-/home/dot/dlt-daemon/src/tests/dlt-test-stress.c
+/mnt/dlt-daemon/src/tests/dlt-test-stress.c
 netdb.h
 -
 ctype.h
@@ -84,9 +84,9 @@ unistd.h
 pthread.h
 -
 dlt.h
-/home/dot/dlt-daemon/src/tests/dlt.h
+/mnt/dlt-daemon/src/tests/dlt.h
 dlt_common.h
-/home/dot/dlt-daemon/src/tests/dlt_common.h
+/mnt/dlt-daemon/src/tests/dlt_common.h
 
 include/dlt/dlt_version.h
 

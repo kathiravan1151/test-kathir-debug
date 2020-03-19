@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dot/dlt-daemon
+CMAKE_SOURCE_DIR = /mnt/dlt-daemon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dot/dlt-daemon/build
+CMAKE_BINARY_DIR = /mnt/dlt-daemon/build
 
 #=============================================================================
 # Directory level rules for directory cmake
@@ -153,7 +153,7 @@ src/lib/preinstall:
 src/lib/CMakeFiles/dlt.dir/all:
 	$(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/depend
 	$(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target dlt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target dlt"
 .PHONY : src/lib/CMakeFiles/dlt.dir/all
 
 # Include target in all.
@@ -163,9 +163,9 @@ all: src/lib/CMakeFiles/dlt.dir/all
 
 # Build rule for subdir invocation for target.
 src/lib/CMakeFiles/dlt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 src/lib/CMakeFiles/dlt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/lib/CMakeFiles/dlt.dir/rule
 
 # Convenience name for target.
@@ -208,7 +208,7 @@ src/daemon/preinstall:
 src/daemon/CMakeFiles/dlt-daemon.dir/all:
 	$(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/depend
 	$(MAKE) -f src/daemon/CMakeFiles/dlt-daemon.dir/build.make src/daemon/CMakeFiles/dlt-daemon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Built target dlt-daemon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Built target dlt-daemon"
 .PHONY : src/daemon/CMakeFiles/dlt-daemon.dir/all
 
 # Include target in all.
@@ -218,9 +218,9 @@ all: src/daemon/CMakeFiles/dlt-daemon.dir/all
 
 # Build rule for subdir invocation for target.
 src/daemon/CMakeFiles/dlt-daemon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 src/daemon/CMakeFiles/dlt-daemon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/daemon/CMakeFiles/dlt-daemon.dir/rule
 
 # Convenience name for target.
@@ -291,7 +291,7 @@ src/console/preinstall: src/console/logstorage/preinstall
 src/console/CMakeFiles/dlt-convert.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/console/CMakeFiles/dlt-convert.dir/build.make src/console/CMakeFiles/dlt-convert.dir/depend
 	$(MAKE) -f src/console/CMakeFiles/dlt-convert.dir/build.make src/console/CMakeFiles/dlt-convert.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=12,13 "Built target dlt-convert"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=12,13 "Built target dlt-convert"
 .PHONY : src/console/CMakeFiles/dlt-convert.dir/all
 
 # Include target in all.
@@ -301,9 +301,9 @@ all: src/console/CMakeFiles/dlt-convert.dir/all
 
 # Build rule for subdir invocation for target.
 src/console/CMakeFiles/dlt-convert.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-convert.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/console/CMakeFiles/dlt-convert.dir/rule
 
 # Convenience name for target.
@@ -328,7 +328,7 @@ clean: src/console/CMakeFiles/dlt-convert.dir/clean
 src/console/CMakeFiles/dlt-receive.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/console/CMakeFiles/dlt-receive.dir/build.make src/console/CMakeFiles/dlt-receive.dir/depend
 	$(MAKE) -f src/console/CMakeFiles/dlt-receive.dir/build.make src/console/CMakeFiles/dlt-receive.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=49,50 "Built target dlt-receive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=49,50 "Built target dlt-receive"
 .PHONY : src/console/CMakeFiles/dlt-receive.dir/all
 
 # Include target in all.
@@ -338,9 +338,9 @@ all: src/console/CMakeFiles/dlt-receive.dir/all
 
 # Build rule for subdir invocation for target.
 src/console/CMakeFiles/dlt-receive.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-receive.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/console/CMakeFiles/dlt-receive.dir/rule
 
 # Convenience name for target.
@@ -365,7 +365,7 @@ clean: src/console/CMakeFiles/dlt-receive.dir/clean
 src/console/CMakeFiles/dlt-control.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/depend
 	$(MAKE) -f src/console/CMakeFiles/dlt-control.dir/build.make src/console/CMakeFiles/dlt-control.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=9,10,11 "Built target dlt-control"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=9,10,11 "Built target dlt-control"
 .PHONY : src/console/CMakeFiles/dlt-control.dir/all
 
 # Include target in all.
@@ -375,9 +375,9 @@ all: src/console/CMakeFiles/dlt-control.dir/all
 
 # Build rule for subdir invocation for target.
 src/console/CMakeFiles/dlt-control.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-control.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/console/CMakeFiles/dlt-control.dir/rule
 
 # Convenience name for target.
@@ -402,7 +402,7 @@ clean: src/console/CMakeFiles/dlt-control.dir/clean
 src/console/CMakeFiles/dlt-passive-node-ctrl.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/depend
 	$(MAKE) -f src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build.make src/console/CMakeFiles/dlt-passive-node-ctrl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=46,47,48 "Built target dlt-passive-node-ctrl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=46,47,48 "Built target dlt-passive-node-ctrl"
 .PHONY : src/console/CMakeFiles/dlt-passive-node-ctrl.dir/all
 
 # Include target in all.
@@ -412,9 +412,9 @@ all: src/console/CMakeFiles/dlt-passive-node-ctrl.dir/all
 
 # Build rule for subdir invocation for target.
 src/console/CMakeFiles/dlt-passive-node-ctrl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-passive-node-ctrl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/console/CMakeFiles/dlt-passive-node-ctrl.dir/rule
 
 # Convenience name for target.
@@ -439,7 +439,7 @@ clean: src/console/CMakeFiles/dlt-passive-node-ctrl.dir/clean
 src/console/CMakeFiles/dlt-sortbytimestamp.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/console/CMakeFiles/dlt-sortbytimestamp.dir/build.make src/console/CMakeFiles/dlt-sortbytimestamp.dir/depend
 	$(MAKE) -f src/console/CMakeFiles/dlt-sortbytimestamp.dir/build.make src/console/CMakeFiles/dlt-sortbytimestamp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=51,52 "Built target dlt-sortbytimestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=51,52 "Built target dlt-sortbytimestamp"
 .PHONY : src/console/CMakeFiles/dlt-sortbytimestamp.dir/all
 
 # Include target in all.
@@ -449,9 +449,9 @@ all: src/console/CMakeFiles/dlt-sortbytimestamp.dir/all
 
 # Build rule for subdir invocation for target.
 src/console/CMakeFiles/dlt-sortbytimestamp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/console/CMakeFiles/dlt-sortbytimestamp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/console/CMakeFiles/dlt-sortbytimestamp.dir/rule
 
 # Convenience name for target.
@@ -494,7 +494,7 @@ src/console/logstorage/preinstall:
 src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/depend
 	$(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=41,42,43,44,45 "Built target dlt-logstorage-ctrl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=41,42,43,44,45 "Built target dlt-logstorage-ctrl"
 .PHONY : src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/all
 
 # Include target in all.
@@ -504,9 +504,9 @@ all: src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/all
 
 # Build rule for subdir invocation for target.
 src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/rule
 
 # Convenience name for target.
@@ -555,7 +555,7 @@ src/examples/preinstall:
 src/examples/CMakeFiles/dlt-example-user.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/examples/CMakeFiles/dlt-example-user.dir/build.make src/examples/CMakeFiles/dlt-example-user.dir/depend
 	$(MAKE) -f src/examples/CMakeFiles/dlt-example-user.dir/build.make src/examples/CMakeFiles/dlt-example-user.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=35,36 "Built target dlt-example-user"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=35,36 "Built target dlt-example-user"
 .PHONY : src/examples/CMakeFiles/dlt-example-user.dir/all
 
 # Include target in all.
@@ -565,9 +565,9 @@ all: src/examples/CMakeFiles/dlt-example-user.dir/all
 
 # Build rule for subdir invocation for target.
 src/examples/CMakeFiles/dlt-example-user.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/dlt-example-user.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/examples/CMakeFiles/dlt-example-user.dir/rule
 
 # Convenience name for target.
@@ -592,7 +592,7 @@ clean: src/examples/CMakeFiles/dlt-example-user.dir/clean
 src/examples/CMakeFiles/dlt-example-filetransfer.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/examples/CMakeFiles/dlt-example-filetransfer.dir/build.make src/examples/CMakeFiles/dlt-example-filetransfer.dir/depend
 	$(MAKE) -f src/examples/CMakeFiles/dlt-example-filetransfer.dir/build.make src/examples/CMakeFiles/dlt-example-filetransfer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=33,34 "Built target dlt-example-filetransfer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=33,34 "Built target dlt-example-filetransfer"
 .PHONY : src/examples/CMakeFiles/dlt-example-filetransfer.dir/all
 
 # Include target in all.
@@ -602,9 +602,9 @@ all: src/examples/CMakeFiles/dlt-example-filetransfer.dir/all
 
 # Build rule for subdir invocation for target.
 src/examples/CMakeFiles/dlt-example-filetransfer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/dlt-example-filetransfer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/examples/CMakeFiles/dlt-example-filetransfer.dir/rule
 
 # Convenience name for target.
@@ -629,7 +629,7 @@ clean: src/examples/CMakeFiles/dlt-example-filetransfer.dir/clean
 src/examples/CMakeFiles/dlt-example-user-common-api.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/examples/CMakeFiles/dlt-example-user-common-api.dir/build.make src/examples/CMakeFiles/dlt-example-user-common-api.dir/depend
 	$(MAKE) -f src/examples/CMakeFiles/dlt-example-user-common-api.dir/build.make src/examples/CMakeFiles/dlt-example-user-common-api.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=37,38 "Built target dlt-example-user-common-api"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=37,38 "Built target dlt-example-user-common-api"
 .PHONY : src/examples/CMakeFiles/dlt-example-user-common-api.dir/all
 
 # Include target in all.
@@ -639,9 +639,9 @@ all: src/examples/CMakeFiles/dlt-example-user-common-api.dir/all
 
 # Build rule for subdir invocation for target.
 src/examples/CMakeFiles/dlt-example-user-common-api.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/dlt-example-user-common-api.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/examples/CMakeFiles/dlt-example-user-common-api.dir/rule
 
 # Convenience name for target.
@@ -666,7 +666,7 @@ clean: src/examples/CMakeFiles/dlt-example-user-common-api.dir/clean
 src/examples/CMakeFiles/dlt-example-user-func.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/examples/CMakeFiles/dlt-example-user-func.dir/build.make src/examples/CMakeFiles/dlt-example-user-func.dir/depend
 	$(MAKE) -f src/examples/CMakeFiles/dlt-example-user-func.dir/build.make src/examples/CMakeFiles/dlt-example-user-func.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=39,40 "Built target dlt-example-user-func"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=39,40 "Built target dlt-example-user-func"
 .PHONY : src/examples/CMakeFiles/dlt-example-user-func.dir/all
 
 # Include target in all.
@@ -676,9 +676,9 @@ all: src/examples/CMakeFiles/dlt-example-user-func.dir/all
 
 # Build rule for subdir invocation for target.
 src/examples/CMakeFiles/dlt-example-user-func.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/dlt-example-user-func.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/examples/CMakeFiles/dlt-example-user-func.dir/rule
 
 # Convenience name for target.
@@ -741,7 +741,7 @@ src/tests/preinstall:
 src/tests/CMakeFiles/dlt-test-non-verbose.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-non-verbose.dir/build.make src/tests/CMakeFiles/dlt-test-non-verbose.dir/depend
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-non-verbose.dir/build.make src/tests/CMakeFiles/dlt-test-non-verbose.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=65,66 "Built target dlt-test-non-verbose"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=65,66 "Built target dlt-test-non-verbose"
 .PHONY : src/tests/CMakeFiles/dlt-test-non-verbose.dir/all
 
 # Include target in all.
@@ -751,9 +751,9 @@ all: src/tests/CMakeFiles/dlt-test-non-verbose.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/dlt-test-non-verbose.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-non-verbose.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/dlt-test-non-verbose.dir/rule
 
 # Convenience name for target.
@@ -778,7 +778,7 @@ clean: src/tests/CMakeFiles/dlt-test-non-verbose.dir/clean
 src/tests/CMakeFiles/dlt-test-user.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-user.dir/build.make src/tests/CMakeFiles/dlt-test-user.dir/depend
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-user.dir/build.make src/tests/CMakeFiles/dlt-test-user.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=73,74 "Built target dlt-test-user"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=73,74 "Built target dlt-test-user"
 .PHONY : src/tests/CMakeFiles/dlt-test-user.dir/all
 
 # Include target in all.
@@ -788,9 +788,9 @@ all: src/tests/CMakeFiles/dlt-test-user.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/dlt-test-user.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-user.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/dlt-test-user.dir/rule
 
 # Convenience name for target.
@@ -815,7 +815,7 @@ clean: src/tests/CMakeFiles/dlt-test-user.dir/clean
 src/tests/CMakeFiles/dlt-test-init-free.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-init-free.dir/build.make src/tests/CMakeFiles/dlt-test-init-free.dir/depend
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-init-free.dir/build.make src/tests/CMakeFiles/dlt-test-init-free.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=59,60 "Built target dlt-test-init-free"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=59,60 "Built target dlt-test-init-free"
 .PHONY : src/tests/CMakeFiles/dlt-test-init-free.dir/all
 
 # Include target in all.
@@ -825,9 +825,9 @@ all: src/tests/CMakeFiles/dlt-test-init-free.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/dlt-test-init-free.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-init-free.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/dlt-test-init-free.dir/rule
 
 # Convenience name for target.
@@ -852,7 +852,7 @@ clean: src/tests/CMakeFiles/dlt-test-init-free.dir/clean
 src/tests/CMakeFiles/dlt-test-multi-process.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process.dir/depend
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=61,62 "Built target dlt-test-multi-process"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=61,62 "Built target dlt-test-multi-process"
 .PHONY : src/tests/CMakeFiles/dlt-test-multi-process.dir/all
 
 # Include target in all.
@@ -862,9 +862,9 @@ all: src/tests/CMakeFiles/dlt-test-multi-process.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/dlt-test-multi-process.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-multi-process.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/dlt-test-multi-process.dir/rule
 
 # Convenience name for target.
@@ -889,7 +889,7 @@ clean: src/tests/CMakeFiles/dlt-test-multi-process.dir/clean
 src/tests/CMakeFiles/dlt-test-stress-user.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-user.dir/build.make src/tests/CMakeFiles/dlt-test-stress-user.dir/depend
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-user.dir/build.make src/tests/CMakeFiles/dlt-test-stress-user.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=71,72 "Built target dlt-test-stress-user"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=71,72 "Built target dlt-test-stress-user"
 .PHONY : src/tests/CMakeFiles/dlt-test-stress-user.dir/all
 
 # Include target in all.
@@ -899,9 +899,9 @@ all: src/tests/CMakeFiles/dlt-test-stress-user.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/dlt-test-stress-user.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-stress-user.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/dlt-test-stress-user.dir/rule
 
 # Convenience name for target.
@@ -926,7 +926,7 @@ clean: src/tests/CMakeFiles/dlt-test-stress-user.dir/clean
 src/tests/CMakeFiles/dlt-test-client.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-client.dir/build.make src/tests/CMakeFiles/dlt-test-client.dir/depend
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-client.dir/build.make src/tests/CMakeFiles/dlt-test-client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=53,54 "Built target dlt-test-client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=53,54 "Built target dlt-test-client"
 .PHONY : src/tests/CMakeFiles/dlt-test-client.dir/all
 
 # Include target in all.
@@ -936,9 +936,9 @@ all: src/tests/CMakeFiles/dlt-test-client.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/dlt-test-client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/dlt-test-client.dir/rule
 
 # Convenience name for target.
@@ -963,7 +963,7 @@ clean: src/tests/CMakeFiles/dlt-test-client.dir/clean
 src/tests/CMakeFiles/dlt-test-stress-client.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-client.dir/build.make src/tests/CMakeFiles/dlt-test-stress-client.dir/depend
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-client.dir/build.make src/tests/CMakeFiles/dlt-test-stress-client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=69,70 "Built target dlt-test-stress-client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=69,70 "Built target dlt-test-stress-client"
 .PHONY : src/tests/CMakeFiles/dlt-test-stress-client.dir/all
 
 # Include target in all.
@@ -973,9 +973,9 @@ all: src/tests/CMakeFiles/dlt-test-stress-client.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/dlt-test-stress-client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-stress-client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/dlt-test-stress-client.dir/rule
 
 # Convenience name for target.
@@ -1000,7 +1000,7 @@ clean: src/tests/CMakeFiles/dlt-test-stress-client.dir/clean
 src/tests/CMakeFiles/dlt-test-multi-process-client.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process-client.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process-client.dir/depend
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process-client.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process-client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=63,64 "Built target dlt-test-multi-process-client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=63,64 "Built target dlt-test-multi-process-client"
 .PHONY : src/tests/CMakeFiles/dlt-test-multi-process-client.dir/all
 
 # Include target in all.
@@ -1010,9 +1010,9 @@ all: src/tests/CMakeFiles/dlt-test-multi-process-client.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/dlt-test-multi-process-client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-multi-process-client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/dlt-test-multi-process-client.dir/rule
 
 # Convenience name for target.
@@ -1037,7 +1037,7 @@ clean: src/tests/CMakeFiles/dlt-test-multi-process-client.dir/clean
 src/tests/CMakeFiles/dlt-test-stress.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-stress.dir/build.make src/tests/CMakeFiles/dlt-test-stress.dir/depend
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-stress.dir/build.make src/tests/CMakeFiles/dlt-test-stress.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=67,68 "Built target dlt-test-stress"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=67,68 "Built target dlt-test-stress"
 .PHONY : src/tests/CMakeFiles/dlt-test-stress.dir/all
 
 # Include target in all.
@@ -1047,9 +1047,9 @@ all: src/tests/CMakeFiles/dlt-test-stress.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/dlt-test-stress.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-stress.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/dlt-test-stress.dir/rule
 
 # Convenience name for target.
@@ -1074,7 +1074,7 @@ clean: src/tests/CMakeFiles/dlt-test-stress.dir/clean
 src/tests/CMakeFiles/dlt-test-filetransfer.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-filetransfer.dir/build.make src/tests/CMakeFiles/dlt-test-filetransfer.dir/depend
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-filetransfer.dir/build.make src/tests/CMakeFiles/dlt-test-filetransfer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=55,56 "Built target dlt-test-filetransfer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=55,56 "Built target dlt-test-filetransfer"
 .PHONY : src/tests/CMakeFiles/dlt-test-filetransfer.dir/all
 
 # Include target in all.
@@ -1084,9 +1084,9 @@ all: src/tests/CMakeFiles/dlt-test-filetransfer.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/dlt-test-filetransfer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-filetransfer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/dlt-test-filetransfer.dir/rule
 
 # Convenience name for target.
@@ -1111,7 +1111,7 @@ clean: src/tests/CMakeFiles/dlt-test-filetransfer.dir/clean
 src/tests/CMakeFiles/dlt-test-fork-handler.dir/all: src/lib/CMakeFiles/dlt.dir/all
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-fork-handler.dir/build.make src/tests/CMakeFiles/dlt-test-fork-handler.dir/depend
 	$(MAKE) -f src/tests/CMakeFiles/dlt-test-fork-handler.dir/build.make src/tests/CMakeFiles/dlt-test-fork-handler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=57,58 "Built target dlt-test-fork-handler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=57,58 "Built target dlt-test-fork-handler"
 .PHONY : src/tests/CMakeFiles/dlt-test-fork-handler.dir/all
 
 # Include target in all.
@@ -1121,9 +1121,9 @@ all: src/tests/CMakeFiles/dlt-test-fork-handler.dir/all
 
 # Build rule for subdir invocation for target.
 src/tests/CMakeFiles/dlt-test-fork-handler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-fork-handler.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : src/tests/CMakeFiles/dlt-test-fork-handler.dir/rule
 
 # Convenience name for target.

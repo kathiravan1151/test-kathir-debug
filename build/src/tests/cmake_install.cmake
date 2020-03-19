@@ -1,4 +1,4 @@
-# Install script for directory: /home/dot/dlt-daemon/src/tests
+# Install script for directory: /mnt/dlt-daemon/src/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-multi-process"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dot/dlt-daemon/build/src/tests/dlt-test-multi-process")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/dlt-daemon/build/src/tests/dlt-test-multi-process")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-multi-process" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-multi-process")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-multi-process"
-         OLD_RPATH "/home/dot/dlt-daemon/build/src/lib:"
+         OLD_RPATH "/mnt/dlt-daemon/build/src/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-multi-process")
@@ -59,12 +59,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-multi-process-client"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dot/dlt-daemon/build/src/tests/dlt-test-multi-process-client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/dlt-daemon/build/src/tests/dlt-test-multi-process-client")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-multi-process-client" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-multi-process-client")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-multi-process-client"
-         OLD_RPATH "/home/dot/dlt-daemon/build/src/lib:"
+         OLD_RPATH "/mnt/dlt-daemon/build/src/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-multi-process-client")
@@ -79,12 +79,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-user"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dot/dlt-daemon/build/src/tests/dlt-test-user")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/dlt-daemon/build/src/tests/dlt-test-user")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-user" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-user")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-user"
-         OLD_RPATH "/home/dot/dlt-daemon/build/src/lib:"
+         OLD_RPATH "/mnt/dlt-daemon/build/src/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-user")
@@ -99,12 +99,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-client"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dot/dlt-daemon/build/src/tests/dlt-test-client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/dlt-daemon/build/src/tests/dlt-test-client")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-client" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-client")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-client"
-         OLD_RPATH "/home/dot/dlt-daemon/build/src/lib:"
+         OLD_RPATH "/mnt/dlt-daemon/build/src/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-client")
@@ -119,12 +119,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress-user"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dot/dlt-daemon/build/src/tests/dlt-test-stress-user")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/dlt-daemon/build/src/tests/dlt-test-stress-user")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress-user" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress-user")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress-user"
-         OLD_RPATH "/home/dot/dlt-daemon/build/src/lib:"
+         OLD_RPATH "/mnt/dlt-daemon/build/src/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress-user")
@@ -139,12 +139,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress-client"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dot/dlt-daemon/build/src/tests/dlt-test-stress-client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/dlt-daemon/build/src/tests/dlt-test-stress-client")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress-client" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress-client")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress-client"
-         OLD_RPATH "/home/dot/dlt-daemon/build/src/lib:"
+         OLD_RPATH "/mnt/dlt-daemon/build/src/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress-client")
@@ -159,12 +159,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dot/dlt-daemon/build/src/tests/dlt-test-stress")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/dlt-daemon/build/src/tests/dlt-test-stress")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress"
-         OLD_RPATH "/home/dot/dlt-daemon/build/src/lib:"
+         OLD_RPATH "/mnt/dlt-daemon/build/src/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-stress")
@@ -179,12 +179,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-filetransfer"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dot/dlt-daemon/build/src/tests/dlt-test-filetransfer")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/dlt-daemon/build/src/tests/dlt-test-filetransfer")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-filetransfer" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-filetransfer")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-filetransfer"
-         OLD_RPATH "/home/dot/dlt-daemon/build/src/lib:"
+         OLD_RPATH "/mnt/dlt-daemon/build/src/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-filetransfer")
@@ -199,12 +199,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-fork-handler"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dot/dlt-daemon/build/src/tests/dlt-test-fork-handler")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/dlt-daemon/build/src/tests/dlt-test-fork-handler")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-fork-handler" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-fork-handler")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-fork-handler"
-         OLD_RPATH "/home/dot/dlt-daemon/build/src/lib:"
+         OLD_RPATH "/mnt/dlt-daemon/build/src/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-fork-handler")
@@ -219,12 +219,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-init-free"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dot/dlt-daemon/build/src/tests/dlt-test-init-free")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/dlt-daemon/build/src/tests/dlt-test-init-free")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-init-free" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-init-free")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-init-free"
-         OLD_RPATH "/home/dot/dlt-daemon/build/src/lib:"
+         OLD_RPATH "/mnt/dlt-daemon/build/src/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-init-free")
@@ -239,12 +239,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-non-verbose"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dot/dlt-daemon/build/src/tests/dlt-test-non-verbose")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/dlt-daemon/build/src/tests/dlt-test-non-verbose")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-non-verbose" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-non-verbose")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-non-verbose"
-         OLD_RPATH "/home/dot/dlt-daemon/build/src/lib:"
+         OLD_RPATH "/mnt/dlt-daemon/build/src/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dlt-test-non-verbose")
@@ -254,8 +254,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dlt-filetransfer" TYPE FILE FILES
-    "/home/dot/dlt-daemon/src/tests/dlt-test-filetransfer-file"
-    "/home/dot/dlt-daemon/src/tests/dlt-test-filetransfer-image.png"
+    "/mnt/dlt-daemon/src/tests/dlt-test-filetransfer-file"
+    "/mnt/dlt-daemon/src/tests/dlt-test-filetransfer-image.png"
     )
 endif()
 

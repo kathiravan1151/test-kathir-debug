@@ -1,4 +1,4 @@
-# Install script for directory: /home/dot/dlt-daemon
+# Install script for directory: /mnt/dlt-daemon
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,16 +33,16 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dot/dlt-daemon/build/automotive-dlt.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/mnt/dlt-daemon/build/automotive-dlt.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dot/dlt-daemon/build/cmake/cmake_install.cmake")
-  include("/home/dot/dlt-daemon/build/doc/cmake_install.cmake")
-  include("/home/dot/dlt-daemon/build/src/cmake_install.cmake")
-  include("/home/dot/dlt-daemon/build/include/dlt/cmake_install.cmake")
-  include("/home/dot/dlt-daemon/build/testscripts/cmake_install.cmake")
+  include("/mnt/dlt-daemon/build/cmake/cmake_install.cmake")
+  include("/mnt/dlt-daemon/build/doc/cmake_install.cmake")
+  include("/mnt/dlt-daemon/build/src/cmake_install.cmake")
+  include("/mnt/dlt-daemon/build/include/dlt/cmake_install.cmake")
+  include("/mnt/dlt-daemon/build/testscripts/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dot/dlt-daemon/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/dlt-daemon/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dot/dlt-daemon
+CMAKE_SOURCE_DIR = /mnt/dlt-daemon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dot/dlt-daemon/build
+CMAKE_BINARY_DIR = /mnt/dlt-daemon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles /home/dot/dlt-daemon/build/src/tests/CMakeFiles/progress.marks
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles /mnt/dlt-daemon/build/src/tests/CMakeFiles/progress.marks
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/clean
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/preinstall
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/preinstall
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/tests/CMakeFiles/dlt-test-non-verbose.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-non-verbose.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-non-verbose.dir/rule
 .PHONY : src/tests/CMakeFiles/dlt-test-non-verbose.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ dlt-test-non-verbose: src/tests/CMakeFiles/dlt-test-non-verbose.dir/rule
 
 # fast build rule for target.
 dlt-test-non-verbose/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-non-verbose.dir/build.make src/tests/CMakeFiles/dlt-test-non-verbose.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-non-verbose.dir/build.make src/tests/CMakeFiles/dlt-test-non-verbose.dir/build
 .PHONY : dlt-test-non-verbose/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/dlt-test-user.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-user.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-user.dir/rule
 .PHONY : src/tests/CMakeFiles/dlt-test-user.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ dlt-test-user: src/tests/CMakeFiles/dlt-test-user.dir/rule
 
 # fast build rule for target.
 dlt-test-user/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-user.dir/build.make src/tests/CMakeFiles/dlt-test-user.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-user.dir/build.make src/tests/CMakeFiles/dlt-test-user.dir/build
 .PHONY : dlt-test-user/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/dlt-test-init-free.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-init-free.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-init-free.dir/rule
 .PHONY : src/tests/CMakeFiles/dlt-test-init-free.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ dlt-test-init-free: src/tests/CMakeFiles/dlt-test-init-free.dir/rule
 
 # fast build rule for target.
 dlt-test-init-free/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-init-free.dir/build.make src/tests/CMakeFiles/dlt-test-init-free.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-init-free.dir/build.make src/tests/CMakeFiles/dlt-test-init-free.dir/build
 .PHONY : dlt-test-init-free/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/dlt-test-multi-process.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-multi-process.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-multi-process.dir/rule
 .PHONY : src/tests/CMakeFiles/dlt-test-multi-process.dir/rule
 
 # Convenience name for target.
@@ -211,12 +211,12 @@ dlt-test-multi-process: src/tests/CMakeFiles/dlt-test-multi-process.dir/rule
 
 # fast build rule for target.
 dlt-test-multi-process/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process.dir/build
 .PHONY : dlt-test-multi-process/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/dlt-test-stress-user.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-stress-user.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-stress-user.dir/rule
 .PHONY : src/tests/CMakeFiles/dlt-test-stress-user.dir/rule
 
 # Convenience name for target.
@@ -226,12 +226,12 @@ dlt-test-stress-user: src/tests/CMakeFiles/dlt-test-stress-user.dir/rule
 
 # fast build rule for target.
 dlt-test-stress-user/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-user.dir/build.make src/tests/CMakeFiles/dlt-test-stress-user.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-user.dir/build.make src/tests/CMakeFiles/dlt-test-stress-user.dir/build
 .PHONY : dlt-test-stress-user/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/dlt-test-client.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-client.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-client.dir/rule
 .PHONY : src/tests/CMakeFiles/dlt-test-client.dir/rule
 
 # Convenience name for target.
@@ -241,12 +241,12 @@ dlt-test-client: src/tests/CMakeFiles/dlt-test-client.dir/rule
 
 # fast build rule for target.
 dlt-test-client/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-client.dir/build.make src/tests/CMakeFiles/dlt-test-client.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-client.dir/build.make src/tests/CMakeFiles/dlt-test-client.dir/build
 .PHONY : dlt-test-client/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/dlt-test-stress-client.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-stress-client.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-stress-client.dir/rule
 .PHONY : src/tests/CMakeFiles/dlt-test-stress-client.dir/rule
 
 # Convenience name for target.
@@ -256,12 +256,12 @@ dlt-test-stress-client: src/tests/CMakeFiles/dlt-test-stress-client.dir/rule
 
 # fast build rule for target.
 dlt-test-stress-client/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-client.dir/build.make src/tests/CMakeFiles/dlt-test-stress-client.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-client.dir/build.make src/tests/CMakeFiles/dlt-test-stress-client.dir/build
 .PHONY : dlt-test-stress-client/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/dlt-test-multi-process-client.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-multi-process-client.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-multi-process-client.dir/rule
 .PHONY : src/tests/CMakeFiles/dlt-test-multi-process-client.dir/rule
 
 # Convenience name for target.
@@ -271,12 +271,12 @@ dlt-test-multi-process-client: src/tests/CMakeFiles/dlt-test-multi-process-clien
 
 # fast build rule for target.
 dlt-test-multi-process-client/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process-client.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process-client.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process-client.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process-client.dir/build
 .PHONY : dlt-test-multi-process-client/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/dlt-test-stress.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-stress.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-stress.dir/rule
 .PHONY : src/tests/CMakeFiles/dlt-test-stress.dir/rule
 
 # Convenience name for target.
@@ -286,12 +286,12 @@ dlt-test-stress: src/tests/CMakeFiles/dlt-test-stress.dir/rule
 
 # fast build rule for target.
 dlt-test-stress/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress.dir/build.make src/tests/CMakeFiles/dlt-test-stress.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress.dir/build.make src/tests/CMakeFiles/dlt-test-stress.dir/build
 .PHONY : dlt-test-stress/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/dlt-test-filetransfer.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-filetransfer.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-filetransfer.dir/rule
 .PHONY : src/tests/CMakeFiles/dlt-test-filetransfer.dir/rule
 
 # Convenience name for target.
@@ -301,12 +301,12 @@ dlt-test-filetransfer: src/tests/CMakeFiles/dlt-test-filetransfer.dir/rule
 
 # fast build rule for target.
 dlt-test-filetransfer/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-filetransfer.dir/build.make src/tests/CMakeFiles/dlt-test-filetransfer.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-filetransfer.dir/build.make src/tests/CMakeFiles/dlt-test-filetransfer.dir/build
 .PHONY : dlt-test-filetransfer/fast
 
 # Convenience name for target.
 src/tests/CMakeFiles/dlt-test-fork-handler.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-fork-handler.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/tests/CMakeFiles/dlt-test-fork-handler.dir/rule
 .PHONY : src/tests/CMakeFiles/dlt-test-fork-handler.dir/rule
 
 # Convenience name for target.
@@ -316,7 +316,7 @@ dlt-test-fork-handler: src/tests/CMakeFiles/dlt-test-fork-handler.dir/rule
 
 # fast build rule for target.
 dlt-test-fork-handler/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-fork-handler.dir/build.make src/tests/CMakeFiles/dlt-test-fork-handler.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-fork-handler.dir/build.make src/tests/CMakeFiles/dlt-test-fork-handler.dir/build
 .PHONY : dlt-test-fork-handler/fast
 
 dlt-test-client.o: dlt-test-client.c.o
@@ -325,7 +325,7 @@ dlt-test-client.o: dlt-test-client.c.o
 
 # target to build an object file
 dlt-test-client.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-client.dir/build.make src/tests/CMakeFiles/dlt-test-client.dir/dlt-test-client.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-client.dir/build.make src/tests/CMakeFiles/dlt-test-client.dir/dlt-test-client.c.o
 .PHONY : dlt-test-client.c.o
 
 dlt-test-client.i: dlt-test-client.c.i
@@ -334,7 +334,7 @@ dlt-test-client.i: dlt-test-client.c.i
 
 # target to preprocess a source file
 dlt-test-client.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-client.dir/build.make src/tests/CMakeFiles/dlt-test-client.dir/dlt-test-client.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-client.dir/build.make src/tests/CMakeFiles/dlt-test-client.dir/dlt-test-client.c.i
 .PHONY : dlt-test-client.c.i
 
 dlt-test-client.s: dlt-test-client.c.s
@@ -343,7 +343,7 @@ dlt-test-client.s: dlt-test-client.c.s
 
 # target to generate assembly for a file
 dlt-test-client.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-client.dir/build.make src/tests/CMakeFiles/dlt-test-client.dir/dlt-test-client.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-client.dir/build.make src/tests/CMakeFiles/dlt-test-client.dir/dlt-test-client.c.s
 .PHONY : dlt-test-client.c.s
 
 dlt-test-filetransfer.o: dlt-test-filetransfer.c.o
@@ -352,7 +352,7 @@ dlt-test-filetransfer.o: dlt-test-filetransfer.c.o
 
 # target to build an object file
 dlt-test-filetransfer.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-filetransfer.dir/build.make src/tests/CMakeFiles/dlt-test-filetransfer.dir/dlt-test-filetransfer.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-filetransfer.dir/build.make src/tests/CMakeFiles/dlt-test-filetransfer.dir/dlt-test-filetransfer.c.o
 .PHONY : dlt-test-filetransfer.c.o
 
 dlt-test-filetransfer.i: dlt-test-filetransfer.c.i
@@ -361,7 +361,7 @@ dlt-test-filetransfer.i: dlt-test-filetransfer.c.i
 
 # target to preprocess a source file
 dlt-test-filetransfer.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-filetransfer.dir/build.make src/tests/CMakeFiles/dlt-test-filetransfer.dir/dlt-test-filetransfer.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-filetransfer.dir/build.make src/tests/CMakeFiles/dlt-test-filetransfer.dir/dlt-test-filetransfer.c.i
 .PHONY : dlt-test-filetransfer.c.i
 
 dlt-test-filetransfer.s: dlt-test-filetransfer.c.s
@@ -370,7 +370,7 @@ dlt-test-filetransfer.s: dlt-test-filetransfer.c.s
 
 # target to generate assembly for a file
 dlt-test-filetransfer.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-filetransfer.dir/build.make src/tests/CMakeFiles/dlt-test-filetransfer.dir/dlt-test-filetransfer.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-filetransfer.dir/build.make src/tests/CMakeFiles/dlt-test-filetransfer.dir/dlt-test-filetransfer.c.s
 .PHONY : dlt-test-filetransfer.c.s
 
 dlt-test-fork-handler.o: dlt-test-fork-handler.c.o
@@ -379,7 +379,7 @@ dlt-test-fork-handler.o: dlt-test-fork-handler.c.o
 
 # target to build an object file
 dlt-test-fork-handler.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-fork-handler.dir/build.make src/tests/CMakeFiles/dlt-test-fork-handler.dir/dlt-test-fork-handler.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-fork-handler.dir/build.make src/tests/CMakeFiles/dlt-test-fork-handler.dir/dlt-test-fork-handler.c.o
 .PHONY : dlt-test-fork-handler.c.o
 
 dlt-test-fork-handler.i: dlt-test-fork-handler.c.i
@@ -388,7 +388,7 @@ dlt-test-fork-handler.i: dlt-test-fork-handler.c.i
 
 # target to preprocess a source file
 dlt-test-fork-handler.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-fork-handler.dir/build.make src/tests/CMakeFiles/dlt-test-fork-handler.dir/dlt-test-fork-handler.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-fork-handler.dir/build.make src/tests/CMakeFiles/dlt-test-fork-handler.dir/dlt-test-fork-handler.c.i
 .PHONY : dlt-test-fork-handler.c.i
 
 dlt-test-fork-handler.s: dlt-test-fork-handler.c.s
@@ -397,7 +397,7 @@ dlt-test-fork-handler.s: dlt-test-fork-handler.c.s
 
 # target to generate assembly for a file
 dlt-test-fork-handler.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-fork-handler.dir/build.make src/tests/CMakeFiles/dlt-test-fork-handler.dir/dlt-test-fork-handler.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-fork-handler.dir/build.make src/tests/CMakeFiles/dlt-test-fork-handler.dir/dlt-test-fork-handler.c.s
 .PHONY : dlt-test-fork-handler.c.s
 
 dlt-test-init-free.o: dlt-test-init-free.c.o
@@ -406,7 +406,7 @@ dlt-test-init-free.o: dlt-test-init-free.c.o
 
 # target to build an object file
 dlt-test-init-free.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-init-free.dir/build.make src/tests/CMakeFiles/dlt-test-init-free.dir/dlt-test-init-free.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-init-free.dir/build.make src/tests/CMakeFiles/dlt-test-init-free.dir/dlt-test-init-free.c.o
 .PHONY : dlt-test-init-free.c.o
 
 dlt-test-init-free.i: dlt-test-init-free.c.i
@@ -415,7 +415,7 @@ dlt-test-init-free.i: dlt-test-init-free.c.i
 
 # target to preprocess a source file
 dlt-test-init-free.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-init-free.dir/build.make src/tests/CMakeFiles/dlt-test-init-free.dir/dlt-test-init-free.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-init-free.dir/build.make src/tests/CMakeFiles/dlt-test-init-free.dir/dlt-test-init-free.c.i
 .PHONY : dlt-test-init-free.c.i
 
 dlt-test-init-free.s: dlt-test-init-free.c.s
@@ -424,7 +424,7 @@ dlt-test-init-free.s: dlt-test-init-free.c.s
 
 # target to generate assembly for a file
 dlt-test-init-free.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-init-free.dir/build.make src/tests/CMakeFiles/dlt-test-init-free.dir/dlt-test-init-free.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-init-free.dir/build.make src/tests/CMakeFiles/dlt-test-init-free.dir/dlt-test-init-free.c.s
 .PHONY : dlt-test-init-free.c.s
 
 dlt-test-multi-process-client.o: dlt-test-multi-process-client.c.o
@@ -433,7 +433,7 @@ dlt-test-multi-process-client.o: dlt-test-multi-process-client.c.o
 
 # target to build an object file
 dlt-test-multi-process-client.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process-client.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process-client.dir/dlt-test-multi-process-client.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process-client.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process-client.dir/dlt-test-multi-process-client.c.o
 .PHONY : dlt-test-multi-process-client.c.o
 
 dlt-test-multi-process-client.i: dlt-test-multi-process-client.c.i
@@ -442,7 +442,7 @@ dlt-test-multi-process-client.i: dlt-test-multi-process-client.c.i
 
 # target to preprocess a source file
 dlt-test-multi-process-client.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process-client.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process-client.dir/dlt-test-multi-process-client.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process-client.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process-client.dir/dlt-test-multi-process-client.c.i
 .PHONY : dlt-test-multi-process-client.c.i
 
 dlt-test-multi-process-client.s: dlt-test-multi-process-client.c.s
@@ -451,7 +451,7 @@ dlt-test-multi-process-client.s: dlt-test-multi-process-client.c.s
 
 # target to generate assembly for a file
 dlt-test-multi-process-client.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process-client.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process-client.dir/dlt-test-multi-process-client.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process-client.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process-client.dir/dlt-test-multi-process-client.c.s
 .PHONY : dlt-test-multi-process-client.c.s
 
 dlt-test-multi-process.o: dlt-test-multi-process.c.o
@@ -460,7 +460,7 @@ dlt-test-multi-process.o: dlt-test-multi-process.c.o
 
 # target to build an object file
 dlt-test-multi-process.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process.dir/dlt-test-multi-process.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process.dir/dlt-test-multi-process.c.o
 .PHONY : dlt-test-multi-process.c.o
 
 dlt-test-multi-process.i: dlt-test-multi-process.c.i
@@ -469,7 +469,7 @@ dlt-test-multi-process.i: dlt-test-multi-process.c.i
 
 # target to preprocess a source file
 dlt-test-multi-process.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process.dir/dlt-test-multi-process.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process.dir/dlt-test-multi-process.c.i
 .PHONY : dlt-test-multi-process.c.i
 
 dlt-test-multi-process.s: dlt-test-multi-process.c.s
@@ -478,7 +478,7 @@ dlt-test-multi-process.s: dlt-test-multi-process.c.s
 
 # target to generate assembly for a file
 dlt-test-multi-process.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process.dir/dlt-test-multi-process.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-multi-process.dir/build.make src/tests/CMakeFiles/dlt-test-multi-process.dir/dlt-test-multi-process.c.s
 .PHONY : dlt-test-multi-process.c.s
 
 dlt-test-non-verbose.o: dlt-test-non-verbose.c.o
@@ -487,7 +487,7 @@ dlt-test-non-verbose.o: dlt-test-non-verbose.c.o
 
 # target to build an object file
 dlt-test-non-verbose.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-non-verbose.dir/build.make src/tests/CMakeFiles/dlt-test-non-verbose.dir/dlt-test-non-verbose.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-non-verbose.dir/build.make src/tests/CMakeFiles/dlt-test-non-verbose.dir/dlt-test-non-verbose.c.o
 .PHONY : dlt-test-non-verbose.c.o
 
 dlt-test-non-verbose.i: dlt-test-non-verbose.c.i
@@ -496,7 +496,7 @@ dlt-test-non-verbose.i: dlt-test-non-verbose.c.i
 
 # target to preprocess a source file
 dlt-test-non-verbose.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-non-verbose.dir/build.make src/tests/CMakeFiles/dlt-test-non-verbose.dir/dlt-test-non-verbose.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-non-verbose.dir/build.make src/tests/CMakeFiles/dlt-test-non-verbose.dir/dlt-test-non-verbose.c.i
 .PHONY : dlt-test-non-verbose.c.i
 
 dlt-test-non-verbose.s: dlt-test-non-verbose.c.s
@@ -505,7 +505,7 @@ dlt-test-non-verbose.s: dlt-test-non-verbose.c.s
 
 # target to generate assembly for a file
 dlt-test-non-verbose.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-non-verbose.dir/build.make src/tests/CMakeFiles/dlt-test-non-verbose.dir/dlt-test-non-verbose.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-non-verbose.dir/build.make src/tests/CMakeFiles/dlt-test-non-verbose.dir/dlt-test-non-verbose.c.s
 .PHONY : dlt-test-non-verbose.c.s
 
 dlt-test-stress-client.o: dlt-test-stress-client.c.o
@@ -514,7 +514,7 @@ dlt-test-stress-client.o: dlt-test-stress-client.c.o
 
 # target to build an object file
 dlt-test-stress-client.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-client.dir/build.make src/tests/CMakeFiles/dlt-test-stress-client.dir/dlt-test-stress-client.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-client.dir/build.make src/tests/CMakeFiles/dlt-test-stress-client.dir/dlt-test-stress-client.c.o
 .PHONY : dlt-test-stress-client.c.o
 
 dlt-test-stress-client.i: dlt-test-stress-client.c.i
@@ -523,7 +523,7 @@ dlt-test-stress-client.i: dlt-test-stress-client.c.i
 
 # target to preprocess a source file
 dlt-test-stress-client.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-client.dir/build.make src/tests/CMakeFiles/dlt-test-stress-client.dir/dlt-test-stress-client.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-client.dir/build.make src/tests/CMakeFiles/dlt-test-stress-client.dir/dlt-test-stress-client.c.i
 .PHONY : dlt-test-stress-client.c.i
 
 dlt-test-stress-client.s: dlt-test-stress-client.c.s
@@ -532,7 +532,7 @@ dlt-test-stress-client.s: dlt-test-stress-client.c.s
 
 # target to generate assembly for a file
 dlt-test-stress-client.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-client.dir/build.make src/tests/CMakeFiles/dlt-test-stress-client.dir/dlt-test-stress-client.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-client.dir/build.make src/tests/CMakeFiles/dlt-test-stress-client.dir/dlt-test-stress-client.c.s
 .PHONY : dlt-test-stress-client.c.s
 
 dlt-test-stress-user.o: dlt-test-stress-user.c.o
@@ -541,7 +541,7 @@ dlt-test-stress-user.o: dlt-test-stress-user.c.o
 
 # target to build an object file
 dlt-test-stress-user.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-user.dir/build.make src/tests/CMakeFiles/dlt-test-stress-user.dir/dlt-test-stress-user.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-user.dir/build.make src/tests/CMakeFiles/dlt-test-stress-user.dir/dlt-test-stress-user.c.o
 .PHONY : dlt-test-stress-user.c.o
 
 dlt-test-stress-user.i: dlt-test-stress-user.c.i
@@ -550,7 +550,7 @@ dlt-test-stress-user.i: dlt-test-stress-user.c.i
 
 # target to preprocess a source file
 dlt-test-stress-user.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-user.dir/build.make src/tests/CMakeFiles/dlt-test-stress-user.dir/dlt-test-stress-user.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-user.dir/build.make src/tests/CMakeFiles/dlt-test-stress-user.dir/dlt-test-stress-user.c.i
 .PHONY : dlt-test-stress-user.c.i
 
 dlt-test-stress-user.s: dlt-test-stress-user.c.s
@@ -559,7 +559,7 @@ dlt-test-stress-user.s: dlt-test-stress-user.c.s
 
 # target to generate assembly for a file
 dlt-test-stress-user.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-user.dir/build.make src/tests/CMakeFiles/dlt-test-stress-user.dir/dlt-test-stress-user.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress-user.dir/build.make src/tests/CMakeFiles/dlt-test-stress-user.dir/dlt-test-stress-user.c.s
 .PHONY : dlt-test-stress-user.c.s
 
 dlt-test-stress.o: dlt-test-stress.c.o
@@ -568,7 +568,7 @@ dlt-test-stress.o: dlt-test-stress.c.o
 
 # target to build an object file
 dlt-test-stress.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress.dir/build.make src/tests/CMakeFiles/dlt-test-stress.dir/dlt-test-stress.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress.dir/build.make src/tests/CMakeFiles/dlt-test-stress.dir/dlt-test-stress.c.o
 .PHONY : dlt-test-stress.c.o
 
 dlt-test-stress.i: dlt-test-stress.c.i
@@ -577,7 +577,7 @@ dlt-test-stress.i: dlt-test-stress.c.i
 
 # target to preprocess a source file
 dlt-test-stress.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress.dir/build.make src/tests/CMakeFiles/dlt-test-stress.dir/dlt-test-stress.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress.dir/build.make src/tests/CMakeFiles/dlt-test-stress.dir/dlt-test-stress.c.i
 .PHONY : dlt-test-stress.c.i
 
 dlt-test-stress.s: dlt-test-stress.c.s
@@ -586,7 +586,7 @@ dlt-test-stress.s: dlt-test-stress.c.s
 
 # target to generate assembly for a file
 dlt-test-stress.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress.dir/build.make src/tests/CMakeFiles/dlt-test-stress.dir/dlt-test-stress.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-stress.dir/build.make src/tests/CMakeFiles/dlt-test-stress.dir/dlt-test-stress.c.s
 .PHONY : dlt-test-stress.c.s
 
 dlt-test-user.o: dlt-test-user.c.o
@@ -595,7 +595,7 @@ dlt-test-user.o: dlt-test-user.c.o
 
 # target to build an object file
 dlt-test-user.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-user.dir/build.make src/tests/CMakeFiles/dlt-test-user.dir/dlt-test-user.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-user.dir/build.make src/tests/CMakeFiles/dlt-test-user.dir/dlt-test-user.c.o
 .PHONY : dlt-test-user.c.o
 
 dlt-test-user.i: dlt-test-user.c.i
@@ -604,7 +604,7 @@ dlt-test-user.i: dlt-test-user.c.i
 
 # target to preprocess a source file
 dlt-test-user.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-user.dir/build.make src/tests/CMakeFiles/dlt-test-user.dir/dlt-test-user.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-user.dir/build.make src/tests/CMakeFiles/dlt-test-user.dir/dlt-test-user.c.i
 .PHONY : dlt-test-user.c.i
 
 dlt-test-user.s: dlt-test-user.c.s
@@ -613,7 +613,7 @@ dlt-test-user.s: dlt-test-user.c.s
 
 # target to generate assembly for a file
 dlt-test-user.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-user.dir/build.make src/tests/CMakeFiles/dlt-test-user.dir/dlt-test-user.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/tests/CMakeFiles/dlt-test-user.dir/build.make src/tests/CMakeFiles/dlt-test-user.dir/dlt-test-user.c.s
 .PHONY : dlt-test-user.c.s
 
 # Help Target
@@ -683,6 +683,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

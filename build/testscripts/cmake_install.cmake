@@ -1,4 +1,4 @@
-# Install script for directory: /home/dot/dlt-daemon/testscripts
+# Install script for directory: /mnt/dlt-daemon/testscripts
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

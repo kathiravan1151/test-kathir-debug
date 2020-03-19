@@ -34,7 +34,7 @@ varargs.h
 stdint.h
 -
 
-/home/dot/dlt-daemon/src/console/dlt-sortbytimestamp.c
+/mnt/dlt-daemon/src/console/dlt-sortbytimestamp.c
 stdio.h
 -
 stdlib.h
@@ -56,5 +56,5 @@ fcntl.h
 sys/uio.h
 -
 dlt_common.h
-/home/dot/dlt-daemon/src/console/dlt_common.h
+/mnt/dlt-daemon/src/console/dlt_common.h
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/dot/dlt-daemon/include/dlt
+# Install script for directory: /mnt/dlt-daemon/include/dlt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,18 +34,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dlt" TYPE FILE FILES
-    "/home/dot/dlt-daemon/include/dlt/dlt.h"
-    "/home/dot/dlt-daemon/include/dlt/dlt_user.h"
-    "/home/dot/dlt-daemon/include/dlt/dlt_user_macros.h"
-    "/home/dot/dlt-daemon/include/dlt/dlt_client.h"
-    "/home/dot/dlt-daemon/include/dlt/dlt_protocol.h"
-    "/home/dot/dlt-daemon/include/dlt/dlt_common.h"
-    "/home/dot/dlt-daemon/include/dlt/dlt_types.h"
-    "/home/dot/dlt-daemon/include/dlt/dlt_shm.h"
-    "/home/dot/dlt-daemon/include/dlt/dlt_offline_trace.h"
-    "/home/dot/dlt-daemon/include/dlt/dlt_filetransfer.h"
-    "/home/dot/dlt-daemon/include/dlt/dlt_common_api.h"
-    "/home/dot/dlt-daemon/build/include/dlt/dlt_version.h"
+    "/mnt/dlt-daemon/include/dlt/dlt.h"
+    "/mnt/dlt-daemon/include/dlt/dlt_user.h"
+    "/mnt/dlt-daemon/include/dlt/dlt_user_macros.h"
+    "/mnt/dlt-daemon/include/dlt/dlt_client.h"
+    "/mnt/dlt-daemon/include/dlt/dlt_protocol.h"
+    "/mnt/dlt-daemon/include/dlt/dlt_common.h"
+    "/mnt/dlt-daemon/include/dlt/dlt_types.h"
+    "/mnt/dlt-daemon/include/dlt/dlt_shm.h"
+    "/mnt/dlt-daemon/include/dlt/dlt_offline_trace.h"
+    "/mnt/dlt-daemon/include/dlt/dlt_filetransfer.h"
+    "/mnt/dlt-daemon/include/dlt/dlt_common_api.h"
+    "/mnt/dlt-daemon/build/include/dlt/dlt_version.h"
     )
 endif()
 

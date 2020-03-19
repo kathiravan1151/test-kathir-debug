@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dot/dlt-daemon
+CMAKE_SOURCE_DIR = /mnt/dlt-daemon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dot/dlt-daemon/build
+CMAKE_BINARY_DIR = /mnt/dlt-daemon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles /home/dot/dlt-daemon/build/src/lib/CMakeFiles/progress.marks
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles /mnt/dlt-daemon/build/src/lib/CMakeFiles/progress.marks
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/clean
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/preinstall
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/preinstall
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/lib/CMakeFiles/dlt.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/CMakeFiles/dlt.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib/CMakeFiles/dlt.dir/rule
 .PHONY : src/lib/CMakeFiles/dlt.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ dlt: src/lib/CMakeFiles/dlt.dir/rule
 
 # fast build rule for target.
 dlt/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/build
 .PHONY : dlt/fast
 
 __/shared/dlt_common.o: __/shared/dlt_common.c.o
@@ -175,7 +175,7 @@ __/shared/dlt_common.o: __/shared/dlt_common.c.o
 
 # target to build an object file
 __/shared/dlt_common.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_common.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_common.c.o
 .PHONY : __/shared/dlt_common.c.o
 
 __/shared/dlt_common.i: __/shared/dlt_common.c.i
@@ -184,7 +184,7 @@ __/shared/dlt_common.i: __/shared/dlt_common.c.i
 
 # target to preprocess a source file
 __/shared/dlt_common.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_common.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_common.c.i
 .PHONY : __/shared/dlt_common.c.i
 
 __/shared/dlt_common.s: __/shared/dlt_common.c.s
@@ -193,7 +193,7 @@ __/shared/dlt_common.s: __/shared/dlt_common.c.s
 
 # target to generate assembly for a file
 __/shared/dlt_common.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_common.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_common.c.s
 .PHONY : __/shared/dlt_common.c.s
 
 __/shared/dlt_protocol.o: __/shared/dlt_protocol.c.o
@@ -202,7 +202,7 @@ __/shared/dlt_protocol.o: __/shared/dlt_protocol.c.o
 
 # target to build an object file
 __/shared/dlt_protocol.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_protocol.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_protocol.c.o
 .PHONY : __/shared/dlt_protocol.c.o
 
 __/shared/dlt_protocol.i: __/shared/dlt_protocol.c.i
@@ -211,7 +211,7 @@ __/shared/dlt_protocol.i: __/shared/dlt_protocol.c.i
 
 # target to preprocess a source file
 __/shared/dlt_protocol.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_protocol.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_protocol.c.i
 .PHONY : __/shared/dlt_protocol.c.i
 
 __/shared/dlt_protocol.s: __/shared/dlt_protocol.c.s
@@ -220,7 +220,7 @@ __/shared/dlt_protocol.s: __/shared/dlt_protocol.c.s
 
 # target to generate assembly for a file
 __/shared/dlt_protocol.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_protocol.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_protocol.c.s
 .PHONY : __/shared/dlt_protocol.c.s
 
 __/shared/dlt_user_shared.o: __/shared/dlt_user_shared.c.o
@@ -229,7 +229,7 @@ __/shared/dlt_user_shared.o: __/shared/dlt_user_shared.c.o
 
 # target to build an object file
 __/shared/dlt_user_shared.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_user_shared.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_user_shared.c.o
 .PHONY : __/shared/dlt_user_shared.c.o
 
 __/shared/dlt_user_shared.i: __/shared/dlt_user_shared.c.i
@@ -238,7 +238,7 @@ __/shared/dlt_user_shared.i: __/shared/dlt_user_shared.c.i
 
 # target to preprocess a source file
 __/shared/dlt_user_shared.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_user_shared.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_user_shared.c.i
 .PHONY : __/shared/dlt_user_shared.c.i
 
 __/shared/dlt_user_shared.s: __/shared/dlt_user_shared.c.s
@@ -247,7 +247,7 @@ __/shared/dlt_user_shared.s: __/shared/dlt_user_shared.c.s
 
 # target to generate assembly for a file
 __/shared/dlt_user_shared.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_user_shared.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/__/shared/dlt_user_shared.c.s
 .PHONY : __/shared/dlt_user_shared.c.s
 
 dlt_client.o: dlt_client.c.o
@@ -256,7 +256,7 @@ dlt_client.o: dlt_client.c.o
 
 # target to build an object file
 dlt_client.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_client.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_client.c.o
 .PHONY : dlt_client.c.o
 
 dlt_client.i: dlt_client.c.i
@@ -265,7 +265,7 @@ dlt_client.i: dlt_client.c.i
 
 # target to preprocess a source file
 dlt_client.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_client.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_client.c.i
 .PHONY : dlt_client.c.i
 
 dlt_client.s: dlt_client.c.s
@@ -274,7 +274,7 @@ dlt_client.s: dlt_client.c.s
 
 # target to generate assembly for a file
 dlt_client.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_client.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_client.c.s
 .PHONY : dlt_client.c.s
 
 dlt_env_ll.o: dlt_env_ll.c.o
@@ -283,7 +283,7 @@ dlt_env_ll.o: dlt_env_ll.c.o
 
 # target to build an object file
 dlt_env_ll.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_env_ll.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_env_ll.c.o
 .PHONY : dlt_env_ll.c.o
 
 dlt_env_ll.i: dlt_env_ll.c.i
@@ -292,7 +292,7 @@ dlt_env_ll.i: dlt_env_ll.c.i
 
 # target to preprocess a source file
 dlt_env_ll.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_env_ll.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_env_ll.c.i
 .PHONY : dlt_env_ll.c.i
 
 dlt_env_ll.s: dlt_env_ll.c.s
@@ -301,7 +301,7 @@ dlt_env_ll.s: dlt_env_ll.c.s
 
 # target to generate assembly for a file
 dlt_env_ll.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_env_ll.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_env_ll.c.s
 .PHONY : dlt_env_ll.c.s
 
 dlt_filetransfer.o: dlt_filetransfer.c.o
@@ -310,7 +310,7 @@ dlt_filetransfer.o: dlt_filetransfer.c.o
 
 # target to build an object file
 dlt_filetransfer.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_filetransfer.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_filetransfer.c.o
 .PHONY : dlt_filetransfer.c.o
 
 dlt_filetransfer.i: dlt_filetransfer.c.i
@@ -319,7 +319,7 @@ dlt_filetransfer.i: dlt_filetransfer.c.i
 
 # target to preprocess a source file
 dlt_filetransfer.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_filetransfer.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_filetransfer.c.i
 .PHONY : dlt_filetransfer.c.i
 
 dlt_filetransfer.s: dlt_filetransfer.c.s
@@ -328,7 +328,7 @@ dlt_filetransfer.s: dlt_filetransfer.c.s
 
 # target to generate assembly for a file
 dlt_filetransfer.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_filetransfer.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_filetransfer.c.s
 .PHONY : dlt_filetransfer.c.s
 
 dlt_user.o: dlt_user.c.o
@@ -337,7 +337,7 @@ dlt_user.o: dlt_user.c.o
 
 # target to build an object file
 dlt_user.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_user.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_user.c.o
 .PHONY : dlt_user.c.o
 
 dlt_user.i: dlt_user.c.i
@@ -346,7 +346,7 @@ dlt_user.i: dlt_user.c.i
 
 # target to preprocess a source file
 dlt_user.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_user.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_user.c.i
 .PHONY : dlt_user.c.i
 
 dlt_user.s: dlt_user.c.s
@@ -355,7 +355,7 @@ dlt_user.s: dlt_user.c.s
 
 # target to generate assembly for a file
 dlt_user.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_user.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/lib/CMakeFiles/dlt.dir/build.make src/lib/CMakeFiles/dlt.dir/dlt_user.c.s
 .PHONY : dlt_user.c.s
 
 # Help Target
@@ -403,6 +403,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -10,5 +10,5 @@ src/examples/CMakeFiles/dlt-example-filetransfer.dir/dlt-example-filetransfer.c.
  ../include/dlt/dlt_types.h
  ../include/dlt/dlt_user.h
  ../include/dlt/dlt_user_macros.h
- /home/dot/dlt-daemon/src/examples/dlt-example-filetransfer.c
+ /mnt/dlt-daemon/src/examples/dlt-example-filetransfer.c
  include/dlt/dlt_version.h

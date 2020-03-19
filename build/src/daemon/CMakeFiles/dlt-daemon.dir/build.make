@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dot/dlt-daemon
+CMAKE_SOURCE_DIR = /mnt/dlt-daemon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dot/dlt-daemon/build
+CMAKE_BINARY_DIR = /mnt/dlt-daemon/build
 
 # Include any dependencies generated for this target.
 include src/daemon/CMakeFiles/dlt-daemon.dir/depend.make
@@ -59,16 +59,16 @@ include src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt-daemon.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt-daemon.c.o: ../src/daemon/dlt-daemon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt-daemon.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt-daemon.c.o   -c /home/dot/dlt-daemon/src/daemon/dlt-daemon.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt-daemon.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt-daemon.c.o   -c /mnt/dlt-daemon/src/daemon/dlt-daemon.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt-daemon.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/dlt-daemon.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/daemon/dlt-daemon.c > CMakeFiles/dlt-daemon.dir/dlt-daemon.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/daemon/dlt-daemon.c > CMakeFiles/dlt-daemon.dir/dlt-daemon.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt-daemon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/dlt-daemon.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/daemon/dlt-daemon.c -o CMakeFiles/dlt-daemon.dir/dlt-daemon.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/daemon/dlt-daemon.c -o CMakeFiles/dlt-daemon.dir/dlt-daemon.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt-daemon.c.o.requires:
 
@@ -83,16 +83,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/dlt-daemon.c.o.provides.build: src/daemon/C
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.o: ../src/daemon/dlt_daemon_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.o   -c /home/dot/dlt-daemon/src/daemon/dlt_daemon_client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.o   -c /mnt/dlt-daemon/src/daemon/dlt_daemon_client.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/daemon/dlt_daemon_client.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/daemon/dlt_daemon_client.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/daemon/dlt_daemon_client.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/daemon/dlt_daemon_client.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.o.requires:
 
@@ -107,16 +107,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_client.c.o.provides.build: src/d
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.o: ../src/daemon/dlt_daemon_common.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.o   -c /home/dot/dlt-daemon/src/daemon/dlt_daemon_common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.o   -c /mnt/dlt-daemon/src/daemon/dlt_daemon_common.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/daemon/dlt_daemon_common.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/daemon/dlt_daemon_common.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/daemon/dlt_daemon_common.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/daemon/dlt_daemon_common.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.o.requires:
 
@@ -131,16 +131,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_common.c.o.provides.build: src/d
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.o: ../src/daemon/dlt_daemon_connection.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.o   -c /home/dot/dlt-daemon/src/daemon/dlt_daemon_connection.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.o   -c /mnt/dlt-daemon/src/daemon/dlt_daemon_connection.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/daemon/dlt_daemon_connection.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/daemon/dlt_daemon_connection.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/daemon/dlt_daemon_connection.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/daemon/dlt_daemon_connection.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.o.requires:
 
@@ -155,16 +155,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_connection.c.o.provides.build: s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.o: ../src/daemon/dlt_daemon_event_handler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.o   -c /home/dot/dlt-daemon/src/daemon/dlt_daemon_event_handler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.o   -c /mnt/dlt-daemon/src/daemon/dlt_daemon_event_handler.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/daemon/dlt_daemon_event_handler.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/daemon/dlt_daemon_event_handler.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/daemon/dlt_daemon_event_handler.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/daemon/dlt_daemon_event_handler.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.o.requires:
 
@@ -179,16 +179,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_event_handler.c.o.provides.build
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.o: ../src/daemon/dlt_daemon_offline_logstorage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.o   -c /home/dot/dlt-daemon/src/daemon/dlt_daemon_offline_logstorage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.o   -c /mnt/dlt-daemon/src/daemon/dlt_daemon_offline_logstorage.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/daemon/dlt_daemon_offline_logstorage.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/daemon/dlt_daemon_offline_logstorage.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/daemon/dlt_daemon_offline_logstorage.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/daemon/dlt_daemon_offline_logstorage.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.o.requires:
 
@@ -203,16 +203,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_offline_logstorage.c.o.provides.
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.o: ../src/daemon/dlt_daemon_serial.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.o   -c /home/dot/dlt-daemon/src/daemon/dlt_daemon_serial.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.o   -c /mnt/dlt-daemon/src/daemon/dlt_daemon_serial.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/daemon/dlt_daemon_serial.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/daemon/dlt_daemon_serial.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/daemon/dlt_daemon_serial.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/daemon/dlt_daemon_serial.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.o.requires:
 
@@ -227,16 +227,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_serial.c.o.provides.build: src/d
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.o: ../src/daemon/dlt_daemon_socket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.o   -c /home/dot/dlt-daemon/src/daemon/dlt_daemon_socket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.o   -c /mnt/dlt-daemon/src/daemon/dlt_daemon_socket.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/daemon/dlt_daemon_socket.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/daemon/dlt_daemon_socket.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/daemon/dlt_daemon_socket.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/daemon/dlt_daemon_socket.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.o.requires:
 
@@ -251,16 +251,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_socket.c.o.provides.build: src/d
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.o: ../src/daemon/dlt_daemon_unix_socket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.o   -c /home/dot/dlt-daemon/src/daemon/dlt_daemon_unix_socket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.o   -c /mnt/dlt-daemon/src/daemon/dlt_daemon_unix_socket.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/daemon/dlt_daemon_unix_socket.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/daemon/dlt_daemon_unix_socket.c > CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/daemon/dlt_daemon_unix_socket.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/daemon/dlt_daemon_unix_socket.c -o CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.o.requires:
 
@@ -275,16 +275,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/dlt_daemon_unix_socket.c.o.provides.build: 
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.o: ../src/gateway/dlt_gateway.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.o   -c /home/dot/dlt-daemon/src/gateway/dlt_gateway.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.o   -c /mnt/dlt-daemon/src/gateway/dlt_gateway.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/gateway/dlt_gateway.c > CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/gateway/dlt_gateway.c > CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/gateway/dlt_gateway.c -o CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/gateway/dlt_gateway.c -o CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.o.requires:
 
@@ -299,16 +299,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/__/gateway/dlt_gateway.c.o.provides.build: 
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.o: ../src/lib/dlt_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.o   -c /home/dot/dlt-daemon/src/lib/dlt_client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.o   -c /mnt/dlt-daemon/src/lib/dlt_client.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/lib/dlt_client.c > CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/lib/dlt_client.c > CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/lib/dlt_client.c -o CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/lib/dlt_client.c -o CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.o.requires:
 
@@ -323,16 +323,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/__/lib/dlt_client.c.o.provides.build: src/d
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.o: ../src/shared/dlt_common.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.o   -c /home/dot/dlt-daemon/src/shared/dlt_common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.o   -c /mnt/dlt-daemon/src/shared/dlt_common.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/shared/dlt_common.c > CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/shared/dlt_common.c > CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/shared/dlt_common.c -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/shared/dlt_common.c -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.o.requires:
 
@@ -347,16 +347,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_common.c.o.provides.build: sr
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.o: ../src/shared/dlt_config_file_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.o   -c /home/dot/dlt-daemon/src/shared/dlt_config_file_parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.o   -c /mnt/dlt-daemon/src/shared/dlt_config_file_parser.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/shared/dlt_config_file_parser.c > CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/shared/dlt_config_file_parser.c > CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/shared/dlt_config_file_parser.c -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/shared/dlt_config_file_parser.c -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.o.requires:
 
@@ -371,16 +371,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_config_file_parser.c.o.provid
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.o: ../src/shared/dlt_offline_trace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.o   -c /home/dot/dlt-daemon/src/shared/dlt_offline_trace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.o   -c /mnt/dlt-daemon/src/shared/dlt_offline_trace.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/shared/dlt_offline_trace.c > CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/shared/dlt_offline_trace.c > CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/shared/dlt_offline_trace.c -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/shared/dlt_offline_trace.c -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.o.requires:
 
@@ -395,16 +395,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_offline_trace.c.o.provides.bu
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.o: ../src/shared/dlt_protocol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.o   -c /home/dot/dlt-daemon/src/shared/dlt_protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.o   -c /mnt/dlt-daemon/src/shared/dlt_protocol.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/shared/dlt_protocol.c > CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/shared/dlt_protocol.c > CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/shared/dlt_protocol.c -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/shared/dlt_protocol.c -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.o.requires:
 
@@ -419,16 +419,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_protocol.c.o.provides.build: 
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.o: ../src/shared/dlt_user_shared.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.o   -c /home/dot/dlt-daemon/src/shared/dlt_user_shared.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.o   -c /mnt/dlt-daemon/src/shared/dlt_user_shared.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/shared/dlt_user_shared.c > CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/shared/dlt_user_shared.c > CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/shared/dlt_user_shared.c -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/shared/dlt_user_shared.c -o CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.o.requires:
 
@@ -443,16 +443,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/__/shared/dlt_user_shared.c.o.provides.buil
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.o: ../src/offlinelogstorage/dlt_offline_logstorage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.o   -c /home/dot/dlt-daemon/src/offlinelogstorage/dlt_offline_logstorage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.o   -c /mnt/dlt-daemon/src/offlinelogstorage/dlt_offline_logstorage.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/offlinelogstorage/dlt_offline_logstorage.c > CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/offlinelogstorage/dlt_offline_logstorage.c > CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/offlinelogstorage/dlt_offline_logstorage.c -o CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/offlinelogstorage/dlt_offline_logstorage.c -o CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage.c.o.requires:
 
@@ -467,16 +467,16 @@ src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.o: src/daemon/CMakeFiles/dlt-daemon.dir/flags.make
 src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.o: ../src/offlinelogstorage/dlt_offline_logstorage_behavior.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.o"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.o   -c /home/dot/dlt-daemon/src/offlinelogstorage/dlt_offline_logstorage_behavior.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.o"
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.o   -c /mnt/dlt-daemon/src/offlinelogstorage/dlt_offline_logstorage_behavior.c
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.i"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dot/dlt-daemon/src/offlinelogstorage/dlt_offline_logstorage_behavior.c > CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.i
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/dlt-daemon/src/offlinelogstorage/dlt_offline_logstorage_behavior.c > CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.i
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.s"
-	cd /home/dot/dlt-daemon/build/src/daemon && /usr/bin/arm-linux-gnueabihf-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dot/dlt-daemon/src/offlinelogstorage/dlt_offline_logstorage_behavior.c -o CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.s
+	cd /mnt/dlt-daemon/build/src/daemon && /usr/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/dlt-daemon/src/offlinelogstorage/dlt_offline_logstorage_behavior.c -o CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.s
 
 src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.o.requires:
 
@@ -533,8 +533,8 @@ src/daemon/dlt-daemon: src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage
 src/daemon/dlt-daemon: src/daemon/CMakeFiles/dlt-daemon.dir/__/offlinelogstorage/dlt_offline_logstorage_behavior.c.o
 src/daemon/dlt-daemon: src/daemon/CMakeFiles/dlt-daemon.dir/build.make
 src/daemon/dlt-daemon: src/daemon/CMakeFiles/dlt-daemon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dot/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C executable dlt-daemon"
-	cd /home/dot/dlt-daemon/build/src/daemon && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dlt-daemon.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/dlt-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C executable dlt-daemon"
+	cd /mnt/dlt-daemon/build/src/daemon && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dlt-daemon.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/daemon/CMakeFiles/dlt-daemon.dir/build: src/daemon/dlt-daemon
@@ -563,10 +563,10 @@ src/daemon/CMakeFiles/dlt-daemon.dir/requires: src/daemon/CMakeFiles/dlt-daemon.
 .PHONY : src/daemon/CMakeFiles/dlt-daemon.dir/requires
 
 src/daemon/CMakeFiles/dlt-daemon.dir/clean:
-	cd /home/dot/dlt-daemon/build/src/daemon && $(CMAKE_COMMAND) -P CMakeFiles/dlt-daemon.dir/cmake_clean.cmake
+	cd /mnt/dlt-daemon/build/src/daemon && $(CMAKE_COMMAND) -P CMakeFiles/dlt-daemon.dir/cmake_clean.cmake
 .PHONY : src/daemon/CMakeFiles/dlt-daemon.dir/clean
 
 src/daemon/CMakeFiles/dlt-daemon.dir/depend:
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dot/dlt-daemon /home/dot/dlt-daemon/src/daemon /home/dot/dlt-daemon/build /home/dot/dlt-daemon/build/src/daemon /home/dot/dlt-daemon/build/src/daemon/CMakeFiles/dlt-daemon.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/dlt-daemon /mnt/dlt-daemon/src/daemon /mnt/dlt-daemon/build /mnt/dlt-daemon/build/src/daemon /mnt/dlt-daemon/build/src/daemon/CMakeFiles/dlt-daemon.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/daemon/CMakeFiles/dlt-daemon.dir/depend
 

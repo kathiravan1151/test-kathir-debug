@@ -6,18 +6,18 @@ src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/__/dlt-control-common.
  ../include/dlt/dlt_common.h
  ../include/dlt/dlt_protocol.h
  ../include/dlt/dlt_types.h
- /home/dot/dlt-daemon/src/console/dlt-control-common.c
- /home/dot/dlt-daemon/src/console/dlt-control-common.h
+ /mnt/dlt-daemon/src/console/dlt-control-common.c
+ /mnt/dlt-daemon/src/console/dlt-control-common.h
 src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-common.c.o
  ../include/dlt/dlt_client.h
  ../include/dlt/dlt_common.h
  ../include/dlt/dlt_protocol.h
  ../include/dlt/dlt_types.h
  ../src/console/dlt-control-common.h
- /home/dot/dlt-daemon/src/console/logstorage/dlt-logstorage-common.c
- /home/dot/dlt-daemon/src/console/logstorage/dlt-logstorage-common.h
- /home/dot/dlt-daemon/src/console/logstorage/dlt-logstorage-prop.h
- /home/dot/dlt-daemon/src/console/logstorage/dlt-logstorage-udev.h
+ /mnt/dlt-daemon/src/console/logstorage/dlt-logstorage-common.c
+ /mnt/dlt-daemon/src/console/logstorage/dlt-logstorage-common.h
+ /mnt/dlt-daemon/src/console/logstorage/dlt-logstorage-prop.h
+ /mnt/dlt-daemon/src/console/logstorage/dlt-logstorage-udev.h
 src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-ctrl.c.o
  ../include/dlt/dlt_client.h
  ../include/dlt/dlt_common.h
@@ -25,13 +25,13 @@ src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-ctrl.c.
  ../include/dlt/dlt_types.h
  ../src/console/dlt-control-common.h
  ../systemd/3rdparty/sd-daemon.h
- /home/dot/dlt-daemon/src/console/logstorage/dlt-logstorage-common.h
- /home/dot/dlt-daemon/src/console/logstorage/dlt-logstorage-ctrl.c
- /home/dot/dlt-daemon/src/console/logstorage/dlt-logstorage-ctrl.h
+ /mnt/dlt-daemon/src/console/logstorage/dlt-logstorage-common.h
+ /mnt/dlt-daemon/src/console/logstorage/dlt-logstorage-ctrl.c
+ /mnt/dlt-daemon/src/console/logstorage/dlt-logstorage-ctrl.h
 src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-list.c.o
  ../include/dlt/dlt_common.h
  ../include/dlt/dlt_protocol.h
  ../include/dlt/dlt_types.h
  ../src/console/dlt-control-common.h
- /home/dot/dlt-daemon/src/console/logstorage/dlt-logstorage-common.h
- /home/dot/dlt-daemon/src/console/logstorage/dlt-logstorage-list.c
+ /mnt/dlt-daemon/src/console/logstorage/dlt-logstorage-common.h
+ /mnt/dlt-daemon/src/console/logstorage/dlt-logstorage-list.c

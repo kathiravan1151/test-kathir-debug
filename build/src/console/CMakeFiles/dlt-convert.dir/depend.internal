@@ -5,4 +5,4 @@ src/console/CMakeFiles/dlt-convert.dir/dlt-convert.c.o
  ../include/dlt/dlt_common.h
  ../include/dlt/dlt_protocol.h
  ../include/dlt/dlt_types.h
- /home/dot/dlt-daemon/src/console/dlt-convert.c
+ /mnt/dlt-daemon/src/console/dlt-convert.c

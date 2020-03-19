@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dot/dlt-daemon
+CMAKE_SOURCE_DIR = /mnt/dlt-daemon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dot/dlt-daemon/build
+CMAKE_BINARY_DIR = /mnt/dlt-daemon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles /home/dot/dlt-daemon/build/src/console/logstorage/CMakeFiles/progress.marks
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/logstorage/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles /mnt/dlt-daemon/build/src/console/logstorage/CMakeFiles/progress.marks
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/logstorage/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/logstorage/clean
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/logstorage/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/logstorage/preinstall
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/logstorage/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/logstorage/preinstall
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/logstorage/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/rule
 .PHONY : src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ dlt-logstorage-ctrl: src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/r
 
 # fast build rule for target.
 dlt-logstorage-ctrl/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build
 .PHONY : dlt-logstorage-ctrl/fast
 
 __/dlt-control-common.o: __/dlt-control-common.c.o
@@ -175,7 +175,7 @@ __/dlt-control-common.o: __/dlt-control-common.c.o
 
 # target to build an object file
 __/dlt-control-common.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/__/dlt-control-common.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/__/dlt-control-common.c.o
 .PHONY : __/dlt-control-common.c.o
 
 __/dlt-control-common.i: __/dlt-control-common.c.i
@@ -184,7 +184,7 @@ __/dlt-control-common.i: __/dlt-control-common.c.i
 
 # target to preprocess a source file
 __/dlt-control-common.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/__/dlt-control-common.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/__/dlt-control-common.c.i
 .PHONY : __/dlt-control-common.c.i
 
 __/dlt-control-common.s: __/dlt-control-common.c.s
@@ -193,7 +193,7 @@ __/dlt-control-common.s: __/dlt-control-common.c.s
 
 # target to generate assembly for a file
 __/dlt-control-common.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/__/dlt-control-common.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/__/dlt-control-common.c.s
 .PHONY : __/dlt-control-common.c.s
 
 dlt-logstorage-common.o: dlt-logstorage-common.c.o
@@ -202,7 +202,7 @@ dlt-logstorage-common.o: dlt-logstorage-common.c.o
 
 # target to build an object file
 dlt-logstorage-common.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-common.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-common.c.o
 .PHONY : dlt-logstorage-common.c.o
 
 dlt-logstorage-common.i: dlt-logstorage-common.c.i
@@ -211,7 +211,7 @@ dlt-logstorage-common.i: dlt-logstorage-common.c.i
 
 # target to preprocess a source file
 dlt-logstorage-common.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-common.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-common.c.i
 .PHONY : dlt-logstorage-common.c.i
 
 dlt-logstorage-common.s: dlt-logstorage-common.c.s
@@ -220,7 +220,7 @@ dlt-logstorage-common.s: dlt-logstorage-common.c.s
 
 # target to generate assembly for a file
 dlt-logstorage-common.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-common.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-common.c.s
 .PHONY : dlt-logstorage-common.c.s
 
 dlt-logstorage-ctrl.o: dlt-logstorage-ctrl.c.o
@@ -229,7 +229,7 @@ dlt-logstorage-ctrl.o: dlt-logstorage-ctrl.c.o
 
 # target to build an object file
 dlt-logstorage-ctrl.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-ctrl.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-ctrl.c.o
 .PHONY : dlt-logstorage-ctrl.c.o
 
 dlt-logstorage-ctrl.i: dlt-logstorage-ctrl.c.i
@@ -238,7 +238,7 @@ dlt-logstorage-ctrl.i: dlt-logstorage-ctrl.c.i
 
 # target to preprocess a source file
 dlt-logstorage-ctrl.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-ctrl.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-ctrl.c.i
 .PHONY : dlt-logstorage-ctrl.c.i
 
 dlt-logstorage-ctrl.s: dlt-logstorage-ctrl.c.s
@@ -247,7 +247,7 @@ dlt-logstorage-ctrl.s: dlt-logstorage-ctrl.c.s
 
 # target to generate assembly for a file
 dlt-logstorage-ctrl.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-ctrl.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-ctrl.c.s
 .PHONY : dlt-logstorage-ctrl.c.s
 
 dlt-logstorage-list.o: dlt-logstorage-list.c.o
@@ -256,7 +256,7 @@ dlt-logstorage-list.o: dlt-logstorage-list.c.o
 
 # target to build an object file
 dlt-logstorage-list.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-list.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-list.c.o
 .PHONY : dlt-logstorage-list.c.o
 
 dlt-logstorage-list.i: dlt-logstorage-list.c.i
@@ -265,7 +265,7 @@ dlt-logstorage-list.i: dlt-logstorage-list.c.i
 
 # target to preprocess a source file
 dlt-logstorage-list.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-list.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-list.c.i
 .PHONY : dlt-logstorage-list.c.i
 
 dlt-logstorage-list.s: dlt-logstorage-list.c.s
@@ -274,7 +274,7 @@ dlt-logstorage-list.s: dlt-logstorage-list.c.s
 
 # target to generate assembly for a file
 dlt-logstorage-list.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-list.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/build.make src/console/logstorage/CMakeFiles/dlt-logstorage-ctrl.dir/dlt-logstorage-list.c.s
 .PHONY : dlt-logstorage-list.c.s
 
 # Help Target
@@ -313,6 +313,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

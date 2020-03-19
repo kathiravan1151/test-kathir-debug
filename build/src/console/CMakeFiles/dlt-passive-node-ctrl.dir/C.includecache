@@ -44,7 +44,7 @@ stdint.h
 dlt_common.h
 ../src/daemon/dlt_common.h
 
-/home/dot/dlt-daemon/src/console/dlt-control-common.c
+/mnt/dlt-daemon/src/console/dlt-control-common.c
 errno.h
 -
 dirent.h
@@ -62,21 +62,21 @@ sys/types.h
 sys/socket.h
 -
 dlt_common.h
-/home/dot/dlt-daemon/src/console/dlt_common.h
+/mnt/dlt-daemon/src/console/dlt_common.h
 dlt_protocol.h
-/home/dot/dlt-daemon/src/console/dlt_protocol.h
+/mnt/dlt-daemon/src/console/dlt_protocol.h
 dlt_client.h
-/home/dot/dlt-daemon/src/console/dlt_client.h
+/mnt/dlt-daemon/src/console/dlt_client.h
 dlt-control-common.h
-/home/dot/dlt-daemon/src/console/dlt-control-common.h
+/mnt/dlt-daemon/src/console/dlt-control-common.h
 
-/home/dot/dlt-daemon/src/console/dlt-control-common.h
+/mnt/dlt-daemon/src/console/dlt-control-common.h
 stdio.h
 -
 dlt_common.h
-/home/dot/dlt-daemon/src/console/dlt_common.h
+/mnt/dlt-daemon/src/console/dlt_common.h
 
-/home/dot/dlt-daemon/src/console/dlt-passive-node-ctrl.c
+/mnt/dlt-daemon/src/console/dlt-passive-node-ctrl.c
 stdio.h
 -
 stdlib.h
@@ -88,11 +88,11 @@ ctype.h
 pthread.h
 -
 dlt_protocol.h
-/home/dot/dlt-daemon/src/console/dlt_protocol.h
+/mnt/dlt-daemon/src/console/dlt_protocol.h
 dlt_client.h
-/home/dot/dlt-daemon/src/console/dlt_client.h
+/mnt/dlt-daemon/src/console/dlt_client.h
 dlt-control-common.h
-/home/dot/dlt-daemon/src/console/dlt-control-common.h
+/mnt/dlt-daemon/src/console/dlt-control-common.h
 dlt_daemon_connection_types.h
-/home/dot/dlt-daemon/src/console/dlt_daemon_connection_types.h
+/mnt/dlt-daemon/src/console/dlt_daemon_connection_types.h
 

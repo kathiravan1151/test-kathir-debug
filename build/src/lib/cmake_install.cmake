@@ -1,4 +1,4 @@
-# Install script for directory: /home/dot/dlt-daemon/src/lib
+# Install script for directory: /mnt/dlt-daemon/src/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,9 +46,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/dot/dlt-daemon/build/src/lib/libdlt.so.2.18.4"
-    "/home/dot/dlt-daemon/build/src/lib/libdlt.so.2"
-    "/home/dot/dlt-daemon/build/src/lib/libdlt.so"
+    "/mnt/dlt-daemon/build/src/lib/libdlt.so.2.18.4"
+    "/mnt/dlt-daemon/build/src/lib/libdlt.so.2"
+    "/mnt/dlt-daemon/build/src/lib/libdlt.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdlt.so.2.18.4"

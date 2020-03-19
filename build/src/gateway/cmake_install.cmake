@@ -1,4 +1,4 @@
-# Install script for directory: /home/dot/dlt-daemon/src/gateway
+# Install script for directory: /mnt/dlt-daemon/src/gateway
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,6 +41,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "base")
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/etc" TYPE FILE FILES "/home/dot/dlt-daemon/src/gateway/dlt_gateway.conf")
+file(INSTALL DESTINATION "/usr/local/etc" TYPE FILE FILES "/mnt/dlt-daemon/src/gateway/dlt_gateway.conf")
 endif()
 

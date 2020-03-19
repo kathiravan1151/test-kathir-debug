@@ -66,7 +66,7 @@ dlt_version.h
 dlt_types.h
 ../include/dlt/dlt_types.h
 
-/home/dot/dlt-daemon/src/tests/dlt-test-stress-client.c
+/mnt/dlt-daemon/src/tests/dlt-test-stress-client.c
 ctype.h
 -
 stdlib.h
@@ -80,11 +80,11 @@ string.h
 sys/uio.h
 -
 dlt_client.h
-/home/dot/dlt-daemon/src/tests/dlt_client.h
+/mnt/dlt-daemon/src/tests/dlt_client.h
 dlt_protocol.h
-/home/dot/dlt-daemon/src/tests/dlt_protocol.h
+/mnt/dlt-daemon/src/tests/dlt_protocol.h
 dlt_user.h
-/home/dot/dlt-daemon/src/tests/dlt_user.h
+/mnt/dlt-daemon/src/tests/dlt_user.h
 
 include/dlt/dlt_version.h
 

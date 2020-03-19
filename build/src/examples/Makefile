@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dot/dlt-daemon
+CMAKE_SOURCE_DIR = /mnt/dlt-daemon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dot/dlt-daemon/build
+CMAKE_BINARY_DIR = /mnt/dlt-daemon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles /home/dot/dlt-daemon/build/src/examples/CMakeFiles/progress.marks
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dot/dlt-daemon/build/CMakeFiles 0
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles /mnt/dlt-daemon/build/src/examples/CMakeFiles/progress.marks
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dlt-daemon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/clean
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/preinstall
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/preinstall
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/examples/CMakeFiles/dlt-example-user.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/dlt-example-user.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/dlt-example-user.dir/rule
 .PHONY : src/examples/CMakeFiles/dlt-example-user.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ dlt-example-user: src/examples/CMakeFiles/dlt-example-user.dir/rule
 
 # fast build rule for target.
 dlt-example-user/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user.dir/build.make src/examples/CMakeFiles/dlt-example-user.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user.dir/build.make src/examples/CMakeFiles/dlt-example-user.dir/build
 .PHONY : dlt-example-user/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/dlt-example-filetransfer.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/dlt-example-filetransfer.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/dlt-example-filetransfer.dir/rule
 .PHONY : src/examples/CMakeFiles/dlt-example-filetransfer.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ dlt-example-filetransfer: src/examples/CMakeFiles/dlt-example-filetransfer.dir/r
 
 # fast build rule for target.
 dlt-example-filetransfer/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-filetransfer.dir/build.make src/examples/CMakeFiles/dlt-example-filetransfer.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-filetransfer.dir/build.make src/examples/CMakeFiles/dlt-example-filetransfer.dir/build
 .PHONY : dlt-example-filetransfer/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/dlt-example-user-common-api.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/dlt-example-user-common-api.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/dlt-example-user-common-api.dir/rule
 .PHONY : src/examples/CMakeFiles/dlt-example-user-common-api.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ dlt-example-user-common-api: src/examples/CMakeFiles/dlt-example-user-common-api
 
 # fast build rule for target.
 dlt-example-user-common-api/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-common-api.dir/build.make src/examples/CMakeFiles/dlt-example-user-common-api.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-common-api.dir/build.make src/examples/CMakeFiles/dlt-example-user-common-api.dir/build
 .PHONY : dlt-example-user-common-api/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/dlt-example-user-func.dir/rule:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/dlt-example-user-func.dir/rule
+	cd /mnt/dlt-daemon/build && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/dlt-example-user-func.dir/rule
 .PHONY : src/examples/CMakeFiles/dlt-example-user-func.dir/rule
 
 # Convenience name for target.
@@ -211,7 +211,7 @@ dlt-example-user-func: src/examples/CMakeFiles/dlt-example-user-func.dir/rule
 
 # fast build rule for target.
 dlt-example-user-func/fast:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-func.dir/build.make src/examples/CMakeFiles/dlt-example-user-func.dir/build
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-func.dir/build.make src/examples/CMakeFiles/dlt-example-user-func.dir/build
 .PHONY : dlt-example-user-func/fast
 
 dlt-example-filetransfer.o: dlt-example-filetransfer.c.o
@@ -220,7 +220,7 @@ dlt-example-filetransfer.o: dlt-example-filetransfer.c.o
 
 # target to build an object file
 dlt-example-filetransfer.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-filetransfer.dir/build.make src/examples/CMakeFiles/dlt-example-filetransfer.dir/dlt-example-filetransfer.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-filetransfer.dir/build.make src/examples/CMakeFiles/dlt-example-filetransfer.dir/dlt-example-filetransfer.c.o
 .PHONY : dlt-example-filetransfer.c.o
 
 dlt-example-filetransfer.i: dlt-example-filetransfer.c.i
@@ -229,7 +229,7 @@ dlt-example-filetransfer.i: dlt-example-filetransfer.c.i
 
 # target to preprocess a source file
 dlt-example-filetransfer.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-filetransfer.dir/build.make src/examples/CMakeFiles/dlt-example-filetransfer.dir/dlt-example-filetransfer.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-filetransfer.dir/build.make src/examples/CMakeFiles/dlt-example-filetransfer.dir/dlt-example-filetransfer.c.i
 .PHONY : dlt-example-filetransfer.c.i
 
 dlt-example-filetransfer.s: dlt-example-filetransfer.c.s
@@ -238,7 +238,7 @@ dlt-example-filetransfer.s: dlt-example-filetransfer.c.s
 
 # target to generate assembly for a file
 dlt-example-filetransfer.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-filetransfer.dir/build.make src/examples/CMakeFiles/dlt-example-filetransfer.dir/dlt-example-filetransfer.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-filetransfer.dir/build.make src/examples/CMakeFiles/dlt-example-filetransfer.dir/dlt-example-filetransfer.c.s
 .PHONY : dlt-example-filetransfer.c.s
 
 dlt-example-user-common-api.o: dlt-example-user-common-api.c.o
@@ -247,7 +247,7 @@ dlt-example-user-common-api.o: dlt-example-user-common-api.c.o
 
 # target to build an object file
 dlt-example-user-common-api.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-common-api.dir/build.make src/examples/CMakeFiles/dlt-example-user-common-api.dir/dlt-example-user-common-api.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-common-api.dir/build.make src/examples/CMakeFiles/dlt-example-user-common-api.dir/dlt-example-user-common-api.c.o
 .PHONY : dlt-example-user-common-api.c.o
 
 dlt-example-user-common-api.i: dlt-example-user-common-api.c.i
@@ -256,7 +256,7 @@ dlt-example-user-common-api.i: dlt-example-user-common-api.c.i
 
 # target to preprocess a source file
 dlt-example-user-common-api.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-common-api.dir/build.make src/examples/CMakeFiles/dlt-example-user-common-api.dir/dlt-example-user-common-api.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-common-api.dir/build.make src/examples/CMakeFiles/dlt-example-user-common-api.dir/dlt-example-user-common-api.c.i
 .PHONY : dlt-example-user-common-api.c.i
 
 dlt-example-user-common-api.s: dlt-example-user-common-api.c.s
@@ -265,7 +265,7 @@ dlt-example-user-common-api.s: dlt-example-user-common-api.c.s
 
 # target to generate assembly for a file
 dlt-example-user-common-api.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-common-api.dir/build.make src/examples/CMakeFiles/dlt-example-user-common-api.dir/dlt-example-user-common-api.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-common-api.dir/build.make src/examples/CMakeFiles/dlt-example-user-common-api.dir/dlt-example-user-common-api.c.s
 .PHONY : dlt-example-user-common-api.c.s
 
 dlt-example-user-func.o: dlt-example-user-func.c.o
@@ -274,7 +274,7 @@ dlt-example-user-func.o: dlt-example-user-func.c.o
 
 # target to build an object file
 dlt-example-user-func.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-func.dir/build.make src/examples/CMakeFiles/dlt-example-user-func.dir/dlt-example-user-func.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-func.dir/build.make src/examples/CMakeFiles/dlt-example-user-func.dir/dlt-example-user-func.c.o
 .PHONY : dlt-example-user-func.c.o
 
 dlt-example-user-func.i: dlt-example-user-func.c.i
@@ -283,7 +283,7 @@ dlt-example-user-func.i: dlt-example-user-func.c.i
 
 # target to preprocess a source file
 dlt-example-user-func.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-func.dir/build.make src/examples/CMakeFiles/dlt-example-user-func.dir/dlt-example-user-func.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-func.dir/build.make src/examples/CMakeFiles/dlt-example-user-func.dir/dlt-example-user-func.c.i
 .PHONY : dlt-example-user-func.c.i
 
 dlt-example-user-func.s: dlt-example-user-func.c.s
@@ -292,7 +292,7 @@ dlt-example-user-func.s: dlt-example-user-func.c.s
 
 # target to generate assembly for a file
 dlt-example-user-func.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-func.dir/build.make src/examples/CMakeFiles/dlt-example-user-func.dir/dlt-example-user-func.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user-func.dir/build.make src/examples/CMakeFiles/dlt-example-user-func.dir/dlt-example-user-func.c.s
 .PHONY : dlt-example-user-func.c.s
 
 dlt-example-user.o: dlt-example-user.c.o
@@ -301,7 +301,7 @@ dlt-example-user.o: dlt-example-user.c.o
 
 # target to build an object file
 dlt-example-user.c.o:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user.dir/build.make src/examples/CMakeFiles/dlt-example-user.dir/dlt-example-user.c.o
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user.dir/build.make src/examples/CMakeFiles/dlt-example-user.dir/dlt-example-user.c.o
 .PHONY : dlt-example-user.c.o
 
 dlt-example-user.i: dlt-example-user.c.i
@@ -310,7 +310,7 @@ dlt-example-user.i: dlt-example-user.c.i
 
 # target to preprocess a source file
 dlt-example-user.c.i:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user.dir/build.make src/examples/CMakeFiles/dlt-example-user.dir/dlt-example-user.c.i
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user.dir/build.make src/examples/CMakeFiles/dlt-example-user.dir/dlt-example-user.c.i
 .PHONY : dlt-example-user.c.i
 
 dlt-example-user.s: dlt-example-user.c.s
@@ -319,7 +319,7 @@ dlt-example-user.s: dlt-example-user.c.s
 
 # target to generate assembly for a file
 dlt-example-user.c.s:
-	cd /home/dot/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user.dir/build.make src/examples/CMakeFiles/dlt-example-user.dir/dlt-example-user.c.s
+	cd /mnt/dlt-daemon/build && $(MAKE) -f src/examples/CMakeFiles/dlt-example-user.dir/build.make src/examples/CMakeFiles/dlt-example-user.dir/dlt-example-user.c.s
 .PHONY : dlt-example-user.c.s
 
 # Help Target
@@ -361,6 +361,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dot/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/dlt-daemon/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

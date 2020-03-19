@@ -8,13 +8,13 @@ src/lib/CMakeFiles/dlt.dir/__/shared/dlt_common.c.o
  ../include/dlt/dlt_types.h
  ../include/dlt/dlt_user.h
  ../include/dlt/dlt_user_macros.h
- /home/dot/dlt-daemon/src/shared/dlt_common.c
- /home/dot/dlt-daemon/src/shared/dlt_common_cfg.h
- /home/dot/dlt-daemon/src/shared/dlt_user_shared.h
+ /mnt/dlt-daemon/src/shared/dlt_common.c
+ /mnt/dlt-daemon/src/shared/dlt_common_cfg.h
+ /mnt/dlt-daemon/src/shared/dlt_user_shared.h
  include/dlt/dlt_version.h
 src/lib/CMakeFiles/dlt.dir/__/shared/dlt_protocol.c.o
  ../include/dlt/dlt_protocol.h
- /home/dot/dlt-daemon/src/shared/dlt_protocol.c
+ /mnt/dlt-daemon/src/shared/dlt_protocol.c
 src/lib/CMakeFiles/dlt.dir/__/shared/dlt_user_shared.c.o
  ../include/dlt/dlt_common.h
  ../include/dlt/dlt_protocol.h
@@ -22,17 +22,17 @@ src/lib/CMakeFiles/dlt.dir/__/shared/dlt_user_shared.c.o
  ../include/dlt/dlt_types.h
  ../include/dlt/dlt_user.h
  ../include/dlt/dlt_user_macros.h
- /home/dot/dlt-daemon/src/shared/dlt_user_shared.c
- /home/dot/dlt-daemon/src/shared/dlt_user_shared.h
- /home/dot/dlt-daemon/src/shared/dlt_user_shared_cfg.h
+ /mnt/dlt-daemon/src/shared/dlt_user_shared.c
+ /mnt/dlt-daemon/src/shared/dlt_user_shared.h
+ /mnt/dlt-daemon/src/shared/dlt_user_shared_cfg.h
  include/dlt/dlt_version.h
 src/lib/CMakeFiles/dlt.dir/dlt_client.c.o
  ../include/dlt/dlt_client.h
  ../include/dlt/dlt_common.h
  ../include/dlt/dlt_protocol.h
  ../include/dlt/dlt_types.h
- /home/dot/dlt-daemon/src/lib/dlt_client.c
- /home/dot/dlt-daemon/src/lib/dlt_client_cfg.h
+ /mnt/dlt-daemon/src/lib/dlt_client.c
+ /mnt/dlt-daemon/src/lib/dlt_client_cfg.h
 src/lib/CMakeFiles/dlt.dir/dlt_env_ll.c.o
  ../include/dlt/dlt_common.h
  ../include/dlt/dlt_protocol.h
@@ -40,7 +40,7 @@ src/lib/CMakeFiles/dlt.dir/dlt_env_ll.c.o
  ../include/dlt/dlt_types.h
  ../include/dlt/dlt_user.h
  ../include/dlt/dlt_user_macros.h
- /home/dot/dlt-daemon/src/lib/dlt_env_ll.c
+ /mnt/dlt-daemon/src/lib/dlt_env_ll.c
  include/dlt/dlt_version.h
 src/lib/CMakeFiles/dlt.dir/dlt_filetransfer.c.o
  ../include/dlt/dlt.h
@@ -51,7 +51,7 @@ src/lib/CMakeFiles/dlt.dir/dlt_filetransfer.c.o
  ../include/dlt/dlt_types.h
  ../include/dlt/dlt_user.h
  ../include/dlt/dlt_user_macros.h
- /home/dot/dlt-daemon/src/lib/dlt_filetransfer.c
+ /mnt/dlt-daemon/src/lib/dlt_filetransfer.c
  include/dlt/dlt_version.h
 src/lib/CMakeFiles/dlt.dir/dlt_user.c.o
  ../include/dlt/dlt_common.h
@@ -62,6 +62,6 @@ src/lib/CMakeFiles/dlt.dir/dlt_user.c.o
  ../include/dlt/dlt_user_macros.h
  ../src/shared/dlt_user_shared.h
  ../src/shared/dlt_user_shared_cfg.h
- /home/dot/dlt-daemon/src/lib/dlt_user.c
- /home/dot/dlt-daemon/src/lib/dlt_user_cfg.h
+ /mnt/dlt-daemon/src/lib/dlt_user.c
+ /mnt/dlt-daemon/src/lib/dlt_user_cfg.h
  include/dlt/dlt_version.h

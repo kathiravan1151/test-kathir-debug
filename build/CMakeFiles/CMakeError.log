@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/dlt-daemon/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c5eb8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c5eb8.dir/build.make CMakeFiles/cmTC_c5eb8.dir/build
-make[1]: Entering directory '/home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c5eb8.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_c5eb8.dir/CheckSymbolExists.c.o   -c /home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_c5eb8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5eb8.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_c5eb8.dir/CheckSymbolExists.c.o  -o cmTC_c5eb8 -rdynamic 
-CMakeFiles/cmTC_c5eb8.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_eac17/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eac17.dir/build.make CMakeFiles/cmTC_eac17.dir/build
+make[1]: Entering directory '/mnt/dlt-daemon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eac17.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_eac17.dir/CheckSymbolExists.c.o   -c /mnt/dlt-daemon/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_eac17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eac17.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_eac17.dir/CheckSymbolExists.c.o  -o cmTC_eac17 -rdynamic 
+CMakeFiles/cmTC_eac17.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_c5eb8.dir/build.make:97: recipe for target 'cmTC_c5eb8' failed
-make[1]: *** [cmTC_c5eb8] Error 1
-make[1]: Leaving directory '/home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_c5eb8/fast' failed
-make: *** [cmTC_c5eb8/fast] Error 2
+CMakeFiles/cmTC_eac17.dir/build.make:97: recipe for target 'cmTC_eac17' failed
+make[1]: *** [cmTC_eac17] Error 1
+make[1]: Leaving directory '/mnt/dlt-daemon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_eac17/fast' failed
+make: *** [cmTC_eac17/fast] Error 2
 
-File /home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /mnt/dlt-daemon/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,37 +34,37 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/dlt-daemon/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_066a9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_066a9.dir/build.make CMakeFiles/cmTC_066a9.dir/build
-make[1]: Entering directory '/home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_066a9.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_066a9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_066a9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_066a9.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_066a9.dir/CheckFunctionExists.c.o  -o cmTC_066a9 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_8214f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8214f.dir/build.make CMakeFiles/cmTC_8214f.dir/build
+make[1]: Entering directory '/mnt/dlt-daemon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8214f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8214f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8214f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8214f.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8214f.dir/CheckFunctionExists.c.o  -o cmTC_8214f -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_066a9.dir/build.make:97: recipe for target 'cmTC_066a9' failed
-make[1]: *** [cmTC_066a9] Error 1
-make[1]: Leaving directory '/home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_066a9/fast' failed
-make: *** [cmTC_066a9/fast] Error 2
+CMakeFiles/cmTC_8214f.dir/build.make:97: recipe for target 'cmTC_8214f' failed
+make[1]: *** [cmTC_8214f] Error 1
+make[1]: Leaving directory '/mnt/dlt-daemon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8214f/fast' failed
+make: *** [cmTC_8214f/fast] Error 2
 
 
 Determining if the system is big endian passed with the following output:
-Change Dir: /home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/dlt-daemon/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3e3d5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3e3d5.dir/build.make CMakeFiles/cmTC_3e3d5.dir/build
-make[1]: Entering directory '/home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3e3d5.dir/TestEndianess.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_3e3d5.dir/TestEndianess.c.o   -c /home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp/TestEndianess.c
-Linking C executable cmTC_3e3d5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e3d5.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_3e3d5.dir/TestEndianess.c.o  -o cmTC_3e3d5 -rdynamic 
-make[1]: Leaving directory '/home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_82eb2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82eb2.dir/build.make CMakeFiles/cmTC_82eb2.dir/build
+make[1]: Entering directory '/mnt/dlt-daemon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82eb2.dir/TestEndianess.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_82eb2.dir/TestEndianess.c.o   -c /mnt/dlt-daemon/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_82eb2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82eb2.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_82eb2.dir/TestEndianess.c.o  -o cmTC_82eb2 -rdynamic 
+make[1]: Leaving directory '/mnt/dlt-daemon/build/CMakeFiles/CMakeTmp'
 
 TestEndianess.c:
 /* A 16 bit integer is required. */
@@ -93,27 +93,27 @@ int main(int argc, char *argv[])
 
 
 Determining if the function floor exists failed with the following output:
-Change Dir: /home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp
+Change Dir: /mnt/dlt-daemon/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_09b9c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_09b9c.dir/build.make CMakeFiles/cmTC_09b9c.dir/build
-make[1]: Entering directory '/home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_09b9c.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_09b9c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Run Build Command:"/usr/bin/make" "cmTC_2e3b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e3b0.dir/build.make CMakeFiles/cmTC_2e3b0.dir/build
+make[1]: Entering directory '/mnt/dlt-daemon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e3b0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_2e3b0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
 <command-line>:0:23: warning: conflicting types for built-in function ‘floor’
 /usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
  char CHECK_FUNCTION_EXISTS();
       ^
-Linking C executable cmTC_09b9c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09b9c.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTC_09b9c.dir/CheckFunctionExists.c.o  -o cmTC_09b9c -rdynamic 
-CMakeFiles/cmTC_09b9c.dir/CheckFunctionExists.c.o: In function `main':
+Linking C executable cmTC_2e3b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e3b0.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTC_2e3b0.dir/CheckFunctionExists.c.o  -o cmTC_2e3b0 -rdynamic 
+CMakeFiles/cmTC_2e3b0.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x15): undefined reference to `floor'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_09b9c.dir/build.make:97: recipe for target 'cmTC_09b9c' failed
-make[1]: *** [cmTC_09b9c] Error 1
-make[1]: Leaving directory '/home/dot/dlt-daemon/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_09b9c/fast' failed
-make: *** [cmTC_09b9c/fast] Error 2
+CMakeFiles/cmTC_2e3b0.dir/build.make:97: recipe for target 'cmTC_2e3b0' failed
+make[1]: *** [cmTC_2e3b0] Error 1
+make[1]: Leaving directory '/mnt/dlt-daemon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2e3b0/fast' failed
+make: *** [cmTC_2e3b0/fast] Error 2
 
 

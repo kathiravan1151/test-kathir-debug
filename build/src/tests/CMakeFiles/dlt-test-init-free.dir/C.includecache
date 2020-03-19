@@ -60,7 +60,7 @@ dlt_version.h
 dlt_types.h
 ../include/dlt/dlt_types.h
 
-/home/dot/dlt-daemon/src/tests/dlt-test-init-free.c
+/mnt/dlt-daemon/src/tests/dlt-test-init-free.c
 stdio.h
 -
 stdlib.h
@@ -70,9 +70,9 @@ string.h
 stdbool.h
 -
 dlt_common.h
-/home/dot/dlt-daemon/src/tests/dlt_common.h
+/mnt/dlt-daemon/src/tests/dlt_common.h
 dlt_user.h
-/home/dot/dlt-daemon/src/tests/dlt_user.h
+/mnt/dlt-daemon/src/tests/dlt_user.h
 
 include/dlt/dlt_version.h
 

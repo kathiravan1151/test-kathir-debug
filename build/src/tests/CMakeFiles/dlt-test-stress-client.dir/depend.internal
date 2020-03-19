@@ -9,5 +9,5 @@ src/tests/CMakeFiles/dlt-test-stress-client.dir/dlt-test-stress-client.c.o
  ../include/dlt/dlt_types.h
  ../include/dlt/dlt_user.h
  ../include/dlt/dlt_user_macros.h
- /home/dot/dlt-daemon/src/tests/dlt-test-stress-client.c
+ /mnt/dlt-daemon/src/tests/dlt-test-stress-client.c
  include/dlt/dlt_version.h

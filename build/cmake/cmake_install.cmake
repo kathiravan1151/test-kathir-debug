@@ -1,4 +1,4 @@
-# Install script for directory: /home/dot/dlt-daemon/cmake
+# Install script for directory: /mnt/dlt-daemon/cmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

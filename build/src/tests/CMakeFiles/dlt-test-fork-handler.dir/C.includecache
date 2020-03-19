@@ -66,7 +66,7 @@ dlt_version.h
 dlt_types.h
 ../include/dlt/dlt_types.h
 
-/home/dot/dlt-daemon/src/tests/dlt-test-fork-handler.c
+/mnt/dlt-daemon/src/tests/dlt-test-fork-handler.c
 unistd.h
 -
 time.h
@@ -74,7 +74,7 @@ time.h
 errno.h
 -
 dlt.h
-/home/dot/dlt-daemon/src/tests/dlt.h
+/mnt/dlt-daemon/src/tests/dlt.h
 
 include/dlt/dlt_version.h
 

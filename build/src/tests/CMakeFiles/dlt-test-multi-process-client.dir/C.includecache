@@ -66,7 +66,7 @@ dlt_version.h
 dlt_types.h
 ../include/dlt/dlt_types.h
 
-/home/dot/dlt-daemon/src/tests/dlt-test-multi-process-client.c
+/mnt/dlt-daemon/src/tests/dlt-test-multi-process-client.c
 string.h
 -
 stdio.h
@@ -86,15 +86,15 @@ sys/uio.h
 sys/stat.h
 -
 dlt_client.h
-/home/dot/dlt-daemon/src/tests/dlt_client.h
+/mnt/dlt-daemon/src/tests/dlt_client.h
 dlt_protocol.h
-/home/dot/dlt-daemon/src/tests/dlt_protocol.h
+/mnt/dlt-daemon/src/tests/dlt_protocol.h
 dlt_user.h
-/home/dot/dlt-daemon/src/tests/dlt_user.h
+/mnt/dlt-daemon/src/tests/dlt_user.h
 dlt-test-multi-process.h
-/home/dot/dlt-daemon/src/tests/dlt-test-multi-process.h
+/mnt/dlt-daemon/src/tests/dlt-test-multi-process.h
 
-/home/dot/dlt-daemon/src/tests/dlt-test-multi-process.h
+/mnt/dlt-daemon/src/tests/dlt-test-multi-process.h
 
 include/dlt/dlt_version.h
 

@@ -70,7 +70,7 @@ dlt_version.h
 dlt_types.h
 ../include/dlt/dlt_types.h
 
-/home/dot/dlt-daemon/src/examples/dlt-example-user-common-api.c
+/mnt/dlt-daemon/src/examples/dlt-example-user-common-api.c
 netdb.h
 -
 ctype.h
@@ -84,7 +84,7 @@ string.h
 unistd.h
 -
 dlt_common_api.h
-/home/dot/dlt-daemon/src/examples/dlt_common_api.h
+/mnt/dlt-daemon/src/examples/dlt_common_api.h
 
 include/dlt/dlt_version.h
 
