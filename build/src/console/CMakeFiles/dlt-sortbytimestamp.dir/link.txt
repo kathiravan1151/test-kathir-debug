@@ -1,0 +1,1 @@
+/usr/bin/arm-linux-gnueabihf-gcc  -O2 -g -DNDEBUG   CMakeFiles/dlt-sortbytimestamp.dir/dlt-sortbytimestamp.c.o  -o dlt-sortbytimestamp -rdynamic ../lib/libdlt.so.2.18.4 -lrt -lpthread -Wl,-rpath,/home/dot/dlt-daemon/build/src/lib: 

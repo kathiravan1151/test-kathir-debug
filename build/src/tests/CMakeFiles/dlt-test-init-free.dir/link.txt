@@ -1,0 +1,1 @@
+/usr/bin/arm-linux-gnueabihf-gcc  -O2 -g -DNDEBUG   CMakeFiles/dlt-test-init-free.dir/dlt-test-init-free.c.o  -o dlt-test-init-free -rdynamic ../lib/libdlt.so.2.18.4 -lrt -lpthread -Wl,-rpath,/home/dot/dlt-daemon/build/src/lib: 

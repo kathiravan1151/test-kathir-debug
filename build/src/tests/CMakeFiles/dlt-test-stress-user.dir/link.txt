@@ -1,0 +1,1 @@
+/usr/bin/arm-linux-gnueabihf-gcc  -O2 -g -DNDEBUG   CMakeFiles/dlt-test-stress-user.dir/dlt-test-stress-user.c.o  -o dlt-test-stress-user -rdynamic ../lib/libdlt.so.2.18.4 -lrt -lpthread -Wl,-rpath,/home/dot/dlt-daemon/build/src/lib: 
