@@ -1,1 +1,0 @@
-/usr/bin/aarch64-linux-gnu-gcc  -O2 -g -DNDEBUG   CMakeFiles/dlt-control.dir/dlt-control.c.o CMakeFiles/dlt-control.dir/dlt-control-common.c.o  -o dlt-control -rdynamic ../lib/libdlt.so.2.18.4 -lrt -lpthread -Wl,-rpath,/mnt/dlt-daemon/build/src/lib: 
